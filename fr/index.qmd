@@ -1,0 +1,26 @@
+---
+title-meta: "Enseigner à l’ère de l’IA"
+page-layout: full
+sidebar: false
+toc: false
+---
+
+::: {.site-hero}
+::: {.guide-kicker}
+Télécom Paris
+:::
+
+# Enseigner à l’ère de l’IA
+
+Des guides pratiques et évolutifs pour enseigner et évaluer lorsque l’IA générative rend les réponses facilement accessibles.
+:::
+
+## Guides
+
+::: {.guide-list}
+::: {.guide-list-item}
+## [Évaluations](guides/evaluations/index.qmd)
+
+Concevoir des évaluations robustes et porteuses de sens à l’ère de l’IA générative.
+:::
+:::

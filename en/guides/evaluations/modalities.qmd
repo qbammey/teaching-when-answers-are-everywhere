@@ -1,0 +1,26 @@
+---
+title: "Solutions by assessment type"
+description: "Recommendations for exams, practical work, projects, reports, oral work, and code."
+---
+
+Organise this chapter by assessment format so teachers can quickly find relevant recommendations.
+
+## Written examinations
+
+Content to be migrated.
+
+## Practical work
+
+Content to be migrated.
+
+## Projects and reports
+
+Content to be migrated.
+
+## Oral assessment
+
+Content to be migrated.
+
+## Programming assignments
+
+Content to be migrated.

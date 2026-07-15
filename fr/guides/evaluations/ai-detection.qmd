@@ -1,0 +1,25 @@
+---
+title: "Détection de l’IA"
+description: "Limites de la détection automatique et alternatives plus sûres."
+---
+
+Il n'est pas possible de détecter de manière fiable les textes générés par IA. L'utilisation de tels détecteurs est à éviter.
+
+Notons tout d'abord que l'usage de tirets cadratins «—» et semi-cadratins «–», ou de figures de style comme les structures ternaires, ne témoigne pas d'un usage de l'IA. Si des modèles de langage l'utilisent, c'est uniquement parce que les textes — écrits par des humains ! — sur lesquels ils sont entraînés en utilisent aussi. De nombreuses personnes en font usage naturellement. Crier à l'usage d'IA quand un texte contient des figures de style ou des tirets cadratins peut à l'inverse pousser des étudiants à appauvrir leur style, voire à commettre des fautes volontaires, pour ne pas être accusés.
+
+Les détecteurs automatiques ne sont pas bien plus fiables. Il est tout d'abord facile d'échapper à leur détection, par exemple en [paraphrasant le texte](https://link.springer.com/article/10.1007/s40979-023-00146-z).
+
+Plus problématique, les détecteurs de textes générés présentent de nombreux biais :
+
+* quand l'étudiant n'écrit pas dans sa langue maternelle (voir [ici](https://www.cell.com/patterns/fulltext/S2666-3899(23)00130-7) et [là](https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers)),
+* minorités linguistiques (dialectes), mais aussi selon la tranche d'âge et le niveau de formalisme,
+* auprès d'un [auteur neurodivergeant](https://link.springer.com/chapter/10.1007/978-3-031-98420-4_7),
+* contre les textes stylistiquement contraints (par exemple un rapport technique ou légal dont le style est limité pour se concentrer sur la technicité),
+* [biais de discipline ou de style](https://aclanthology.org/2026.customnlp4u-1.1/): les détecteurs sont encore moins fiables sur des textes dont le type (abstract, rapport, essai d'étudiant, poésie, etc) et la discipline diffèrent des données d'entraînement,
+* les détecteurs étant principalement entraînés sur des textes en anglais, leur fiabilité empire quand ils sont utilisés sur d'autres langues, par exemple en français.
+
+En résumé, les outils de détection d'IA dans les textes n'offrent qu'une analyse statistique, pas une preuve de la génération. Comme toute analyse statistique, ils sont soumis à des biais.
+
+Enfin, notons qu'un faux positif peut avoir de graves conséquences pour l'étudiant concerné.
+
+

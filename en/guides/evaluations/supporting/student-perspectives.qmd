@@ -1,0 +1,6 @@
+---
+title: "Student perspectives"
+description: "Student uses, experiences, and perceptions of generative AI."
+---
+
+This page is reserved for findings from student surveys, interviews, or workshops. It may temporarily lag behind the rest of the guide.

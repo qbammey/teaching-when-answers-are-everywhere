@@ -1,0 +1,14 @@
+---
+title: "Resources"
+description: "Internal and external resources related to assessment and generative AI."
+---
+
+This supporting page can collect institutional policies, reports, questionnaires, research literature, and practical resources.
+
+## Internal resources
+
+- Add institutional documents here.
+
+## External resources
+
+- Add annotated references here.

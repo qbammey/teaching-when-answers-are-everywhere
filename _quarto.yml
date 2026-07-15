@@ -1,0 +1,139 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "en/**/*.qmd"
+    - "fr/**/*.qmd"
+
+website:
+  title: "Teaching when answers are everywhere"
+
+  search:
+    location: navbar
+    type: overlay
+
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    title: "Teaching when answers are everywhere"
+    background: dark
+    foreground: light
+    collapse-below: xl
+
+    left:
+      # The spans provide stable targets for site-navigation.html.
+      # The English entries also provide a usable fallback if JavaScript is disabled.
+      - text: '<span id="nav-guide-label">Evaluations</span>'
+        aria-label: Guide selector
+        menu:
+          - text: Evaluations
+            href: en/guides/evaluations/index.qmd
+
+      - text: '<span id="nav-section-label">Section</span>'
+        aria-label: Section selector
+        menu:
+          - text: 1. Introduction and context
+            href: en/guides/evaluations/introduction.qmd
+          - text: 2. Approaches for robust assessments
+            href: en/guides/evaluations/approaches.qmd
+          - text: 3. Solutions by assessment type
+            href: en/guides/evaluations/modalities.qmd
+          - text: 4. AI detection
+            href: en/guides/evaluations/ai-detection.qmd
+          - text: 5. Pedagogical contracts and disclosure
+            href: en/guides/evaluations/pedagogical-contracts.qmd
+
+    right:
+      - text: '<span id="nav-language-label">Français</span>'
+        href: fr/index.qmd
+        aria-label: Switch language
+
+  sidebar:
+    - id: evaluations-en
+      title: Evaluations
+      logo-href: en/guides/evaluations/index.qmd
+      style: docked
+      collapse-level: 1
+      contents:
+        - text: Guide overview
+          href: en/guides/evaluations/index.qmd
+        - section: Evaluations
+          contents:
+            - text: 1. Introduction and context
+              href: en/guides/evaluations/introduction.qmd
+            - text: 2. Approaches for robust assessments
+              href: en/guides/evaluations/approaches.qmd
+            - text: 3. Solutions by assessment type
+              href: en/guides/evaluations/modalities.qmd
+            - text: 4. AI detection
+              href: en/guides/evaluations/ai-detection.qmd
+            - text: 5. Pedagogical contracts and disclosure
+              href: en/guides/evaluations/pedagogical-contracts.qmd
+        - text: "---"
+        - section: Supporting pages
+          contents:
+            - text: Resources
+              href: en/guides/evaluations/supporting/resources.qmd
+            - text: Prompts
+              href: en/guides/evaluations/supporting/prompts.qmd
+            - text: Student perspectives
+              href: en/guides/evaluations/supporting/student-perspectives.qmd
+            - text: Team
+              href: en/guides/evaluations/supporting/team.qmd
+
+    - id: evaluations-fr
+      title: Évaluations
+      logo-href: fr/guides/evaluations/index.qmd
+      style: docked
+      collapse-level: 1
+      contents:
+        - text: Présentation du guide
+          href: fr/guides/evaluations/index.qmd
+        - section: Évaluations
+          contents:
+            - text: 1. Introduction et contexte
+              href: fr/guides/evaluations/introduction.qmd
+            - text: 2. Approches pour des évaluations robustes
+              href: fr/guides/evaluations/approaches.qmd
+            - text: 3. Solutions par modalité d’évaluation
+              href: fr/guides/evaluations/modalities.qmd
+            - text: 4. Détection de l’IA
+              href: fr/guides/evaluations/ai-detection.qmd
+            - text: 5. Contrats pédagogiques et déclaration
+              href: fr/guides/evaluations/pedagogical-contracts.qmd
+        - text: "---"
+        - section: Pages complémentaires
+          contents:
+            - text: Ressources
+              href: fr/guides/evaluations/supporting/resources.qmd
+            - text: Prompts
+              href: fr/guides/evaluations/supporting/prompts.qmd
+            - text: Point de vue des étudiants
+              href: fr/guides/evaluations/supporting/student-perspectives.qmd
+            - text: Équipe
+              href: fr/guides/evaluations/supporting/team.qmd
+
+  page-footer:
+    left: Teaching when answers are everywhere · Enseigner à l’ère de l’IA
+    right: Télécom Paris
+    border: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+      - theme.scss
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-icon: true
+    code-copy: true
+    callout-appearance: simple
+    include-after-body: assets/includes/site-navigation.html
+
+execute:
+  freeze: auto
+

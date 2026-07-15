@@ -1,0 +1,14 @@
+---
+title: "Approaches for robust assessments"
+description: "Complementary approaches for preserving meaningful assessment."
+---
+
+This chapter is intended for the guide’s general approaches: making work more specific, observing the process, using oral interaction, clarifying the pedagogical contract, and treating AI use as a competence where relevant.
+
+## Combine approaches
+
+No single method is appropriate for every course. The strongest designs generally combine several modest measures rather than relying on one supposedly definitive safeguard.
+
+::: {.callout-tip title="Practical rule"}
+Start from the learning outcome, then choose the least burdensome combination of measures that provides credible evidence of learning.
+:::

@@ -1,0 +1,18 @@
+---
+title: "Prompts"
+description: "Prompts réutilisables pour concevoir et relire des évaluations."
+---
+
+Chaque prompt devrait préciser son objectif, les informations nécessaires, le résultat attendu et les éléments que l’enseignant doit vérifier.
+
+## Modèle de prompt
+
+::: {.callout-note title="Concevoir une évaluation"}
+**Objectif :** Décrire l’usage prévu.
+
+**Informations :** Niveau du cours, acquis d’apprentissage, modalité, durée et contraintes.
+
+**Prompt :** Ajouter ici le prompt relu et validé.
+
+**Vérifications :** Lister les éléments à contrôler avant utilisation.
+:::

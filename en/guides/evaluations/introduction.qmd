@@ -1,0 +1,40 @@
+---
+title: "Introduction and context"
+description: "Why assessment practices need to evolve in the era of generative AI."
+---
+
+This chapter introduces the purpose and scope of the guide. Replace this scaffold with the existing guide content.
+
+## Why revisit assessment?
+
+Generative AI changes which tasks can demonstrate student learning reliably. The objective is not to make every assessment resistant to every tool, but to align the assessment with the learning outcomes and make expectations explicit.
+
+::: {.callout-note title="Editorial principle"}
+Prefer changes that improve the pedagogical value of an assessment even when no AI tool is used.
+:::
+
+## A place for key figures
+
+::: {.key-numbers}
+::: {.key-number}
+## XX%
+
+Replace with a sourced result from the teacher questionnaire.
+:::
+
+::: {.key-number}
+## X in Y
+
+Replace with another meaningful, sourced figure.
+:::
+:::
+
+## A place for a diagram
+
+```{mermaid}
+flowchart LR
+  A[Learning outcomes] --> B[Assessment design]
+  B --> C[Instructions on AI use]
+  C --> D[Student work]
+  D --> E[Feedback and revision]
+```

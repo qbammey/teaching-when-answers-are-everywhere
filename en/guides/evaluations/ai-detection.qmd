@@ -1,0 +1,14 @@
+---
+title: "AI detection"
+description: "Limits of automatic AI-text detection and safer alternatives."
+---
+
+This chapter should explain why automatic detection cannot provide sufficiently reliable proof of AI use and why stylistic clues are not dependable evidence.
+
+::: {.callout-warning title="Do not use as proof"}
+An AI detector score should not, by itself, be used to accuse a student of misconduct.
+:::
+
+## Better alternatives
+
+Document the assessment process, request intermediate work where useful, discuss the work with the student, and evaluate whether the submitted work demonstrates the intended learning outcomes.

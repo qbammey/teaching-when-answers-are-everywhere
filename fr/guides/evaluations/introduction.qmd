@@ -1,0 +1,123 @@
+---
+title: "Introduction et contexte"
+description: "Pourquoi les pratiques d’évaluation doivent évoluer à l’ère de l’IA générative."
+---
+
+
+::: {.callout-note title="Refonder l'évaluation"}
+
+### Cibler la prime humaine
+
+* Cesser d'évaluer la simple production de contenus
+* Évaluer les étudiants sur leur capacité de jugement, de discernement critique et de supervision des systèmes autonomes.
+
+:::
+
+## Pourquoi ce guide ?
+
+Ce document est un outil vivant, alimenté collectivement par le groupe de travail Évaluation & IA de Télécom Paris. Il vise à capitaliser sur les pratiques, les expériences et les réflexions des enseignants-chercheurs face à l'usage croissant de l'IA générative par les étudiants.
+
+## État des lieux
+
+Résultats issu du [questionnaire adressé aux enseignants-chercheurs](/assets/questionnaire-enseignant-mai-2026.pdf) :
+
+L’IA générative modifie les tâches qui permettent d’observer de manière fiable les apprentissages des étudiants. L’objectif n’est pas de rendre chaque évaluation invulnérable à tout outil, mais de l’aligner sur les acquis visés et de rendre les attentes explicites.
+
+::: {.callout-note title="Principe éditorial"}
+Privilégier les évolutions qui améliorent la valeur pédagogique de l’évaluation, y compris lorsqu’aucun outil d’IA n’est utilisé.
+:::
+
+## Emplacement pour des chiffres clés
+
+::: {.key-numbers}
+::: {.key-number}
+## 3,4 / 5
+
+Note moyenne attribuée par les enseignants à la question « Dans quelle mesure l'IA a-t-elle modifié vos pratiques d'évaluation ?» (1: pas du tout, 5: très fortement).
+:::
+
+::: {.key-number}
+## Deux tiers
+
+des enseignants estiment que les étudiants utilisent l'IA dans la quasi-totalité des rendus.
+:::
+
+::: {.key-number}
+## 42%
+citent le manque de temps pour repenser les sujets comme difficulté principale de l'adaptation des évaluations aux outils d'IA générative.
+:::
+:::
+
+À la question **«Quelle posture adoptez-vous face à l'IA dans vos évaluations ?»**,
+
+* Un tiers des enseignants appliquent une interdiction stricte
+* Un tiers pratique une tolérance encadrée
+* Un tiers intègrent l'IA comme outil pédagogique.
+
+::::: {.metric-infographic .column-screen-inset}
+
+## L'IA réussit l'examen traditionnel {.metric-title}
+
+:::: {.metric-grid}
+
+::: {.metric-item}
+
+### Programmation
+
+<div class="metric-gauge metric-gauge-range" role="img" aria-label="Taux de réussite compris entre 68 et 90 pour cent" style="--minimum: 68%; --maximum: 90%;"></div>
+
+[68 % – 90 %]{.metric-value}
+
+[Nikolic et al., 2023]{.metric-source}
+
+[Score de réussite aux examens et travaux écrits.]{.metric-description}
+
+:::
+
+::: {.metric-item}
+
+### Affaires et gestion
+
+<div class="metric-gauge" role="img" aria-label="Précision de 78,1 pour cent" style="--fill: 78.1%;"></div>
+
+[78,1 %]{.metric-value}
+
+[Adilov et al., 2024]{.metric-source}
+
+[Précision aux QCM et exercices de rédaction.]{.metric-description}
+
+:::
+
+::: {.metric-item}
+
+### Physique
+
+<div class="metric-gauge" role="img" aria-label="Score de 60 pour cent" style="--fill: 60%;"></div>
+
+[60 %]{.metric-value}
+
+[Kortemeyer, 2023]{.metric-source}
+
+[Score obtenu par un agent IA dans un cours d'introduction.]{.metric-description}
+
+:::
+
+::::
+
+::: {.metric-conclusion}
+
+L'évaluation standardisée, non supervisée, n'est plus une mesure fiable de
+la compétence exclusive de l'étudiant.
+
+:::
+
+::: {.metric-citation}
+
+Source : Cathia Papi, Amélie Beaudoin, Nilce Da Silva, Serge Gérin-Lajoie et
+Marie-Hélène Hébert, « Repenser l'évaluation des apprentissages à l'ère de
+l'IA : une revue de la littérature anglophone », *Distances et médiations
+des savoirs*, no 54, 2026.
+
+:::
+
+:::::

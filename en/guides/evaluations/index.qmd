@@ -1,0 +1,96 @@
+---
+title-meta: "Evaluations"
+description: "Designing robust student assessments in the era of generative AI."
+date-modified: 2026-07-13
+page-layout: full
+sidebar: false
+toc: false
+---
+
+::: {.guide-hero}
+::: {.guide-kicker}
+Teaching when answers are everywhere
+:::
+
+# Evaluations
+
+How can assessments remain meaningful when students have ready access to generative AI? This living guide collects principles, approaches, and practical options for teachers.
+
+[Start the guide](introduction.qmd){.btn .btn-primary .btn-lg}
+
+::: {.guide-updated}
+**Last updated:** {{< meta date-modified >}}
+:::
+:::
+
+## Guide sections
+
+::: {.guide-grid}
+::: {.guide-card}
+[1]{.guide-card-number}
+
+### [Introduction and context](introduction.qmd)
+
+Why this guide is needed and what is changing in student assessment.
+:::
+
+::: {.guide-card}
+[2]{.guide-card-number}
+
+### [Approaches for robust assessments](approaches.qmd)
+
+Complementary strategies based on process, singularity, dialogue, and AI literacy.
+:::
+
+::: {.guide-card}
+[3]{.guide-card-number}
+
+### [Solutions by assessment type](modalities.qmd)
+
+Practical recommendations for exams, practical work, projects, reports, oral work, and code.
+:::
+
+::: {.guide-card}
+[4]{.guide-card-number}
+
+### [AI detection](ai-detection.qmd)
+
+Why automatic detection is unreliable and what to do instead.
+:::
+
+::: {.guide-card}
+[5]{.guide-card-number}
+
+### [Pedagogical contracts and disclosure](pedagogical-contracts.qmd)
+
+Set clear expectations and document acceptable uses of AI.
+:::
+:::
+
+## Supporting pages
+
+::: {.supporting-grid}
+::: {.supporting-card}
+### [Resources](supporting/resources.qmd)
+
+Internal and external references, policies, and further reading.
+:::
+
+::: {.supporting-card}
+### [Prompts](supporting/prompts.qmd)
+
+Reusable prompts to support assessment design.
+:::
+
+::: {.supporting-card}
+### [Student perspectives](supporting/student-perspectives.qmd)
+
+Student uses, experiences, and perceptions of AI.
+:::
+
+::: {.supporting-card}
+### [Team](supporting/team.qmd)
+
+Contributors and contact information.
+:::
+:::

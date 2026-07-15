@@ -1,0 +1,26 @@
+---
+title-meta: "Teaching when answers are everywhere"
+page-layout: full
+sidebar: false
+toc: false
+---
+
+::: {.site-hero}
+::: {.guide-kicker}
+Télécom Paris
+:::
+
+# Teaching when answers are everywhere
+
+Practical, evolving guides for teaching and assessing students when generative AI makes answers readily available.
+:::
+
+## Guides
+
+::: {.guide-list}
+::: {.guide-list-item}
+## [Evaluations](guides/evaluations/index.qmd)
+
+Designing robust and meaningful student assessments in the era of generative AI.
+:::
+:::

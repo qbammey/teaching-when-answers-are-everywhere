@@ -1,0 +1,290 @@
+---
+title: "Plusieurs approches pour des évaluations robustes à l’IA"
+description: "Repenser les tâches, le processus et le contrat pédagogique."
+---
+
+## Le changement de paradigme : vers l’évaluation authentique
+
+|  | Évaluation traditionnelle | Évaluation authentique |
+|---|---|---|
+| **Objet évalué** | Le produit fini | Le processus cognitif et les itérations |
+| **Nature de la tâche** | Standardisée, décontextualisée, principalement fondée sur la restitution | Complexe, contextualisée, professionnalisante et ancrée dans le réel |
+| **Format** | Écrit non supervisé et QCM classiques | Projets, soutenances orales, simulations et activités collaboratives |
+| **Rôle de l’IA** | Menace extérieure et possible moyen de fraude | Outil intégré dont l’usage est analysé, justifié et discuté |
+
+::: {.callout-note appearance="simple"}
+Ces approches ne sont pas exclusives. Elles peuvent être combinées selon le
+contexte, le niveau des étudiants et les objectifs pédagogiques.
+:::
+
+## Vulnérabilité des évaluations et niveau cognitif
+
+::::: {.ai-vulnerability}
+
+### Une lecture inspirée de la taxonomie de Bloom {.ai-vulnerability__title}
+
+:::: {.ai-vulnerability__body}
+
+::: {.ai-vulnerability__pyramid aria-label="Pyramide représentant la vulnérabilité des évaluations à l’intelligence artificielle"}
+
+::: {.ai-vulnerability__layer .ai-vulnerability__layer--top}
+Évaluation et créativité
+:::
+
+::: {.ai-vulnerability__layer .ai-vulnerability__layer--middle}
+Application et analyse
+:::
+
+::: {.ai-vulnerability__layer .ai-vulnerability__layer--bottom}
+Mémorisation et compréhension
+:::
+
+:::
+
+::: {.ai-vulnerability__legend}
+
+::: {.ai-vulnerability__legend-item .ai-vulnerability__legend-item--top}
+
+#### Différenciateur humain
+
+Les projets complexes, les situations contextualisées, les laboratoires et
+l’exercice de l’esprit critique restent les plus difficiles à automatiser.
+
+:::
+
+::: {.ai-vulnerability__legend-item .ai-vulnerability__legend-item--middle}
+
+#### Zone intermédiaire
+
+L’IA peut traiter des études de cas standards, mais ses résultats deviennent
+plus fragiles lorsque le contexte est spécifique ou incomplet.
+
+:::
+
+::: {.ai-vulnerability__legend-item .ai-vulnerability__legend-item--bottom}
+
+#### Forte vulnérabilité
+
+L’IA générative est particulièrement performante pour restituer, reformuler
+et synthétiser des connaissances accessibles.
+
+:::
+
+:::
+
+::::
+
+::: {.ai-vulnerability__source}
+Source adaptée de Cathia Papi, Amélie Beaudoin, Nilce Da Silva,
+Serge Gérin-Lajoie et Marie-Hélène Hébert, « Repenser l’évaluation des
+apprentissages à l’ère de l’IA : une revue de la littérature anglophone »,
+*Distances et médiations des savoirs*, no 54, 2026.
+:::
+
+:::::
+
+## L’ancrage dans la singularité
+
+Concevoir des sujets liés à une expérience vécue, un projet réel, un terrain,
+un jeu de données ou une situation propre à l’étudiant ou au groupe. Une
+réponse générique produite par une IA devient alors moins facilement
+substituable au travail demandé.
+
+::: {.callout-note appearance="simple" icon="false"}
+## À compléter
+
+Ajouter des exemples et des déclinaisons pratiques adaptés aux différentes
+disciplines.
+:::
+
+## Le processus comme objet d’évaluation
+
+Évaluer non seulement le résultat final, mais aussi le cheminement :
+hypothèses, versions intermédiaires, journal de bord, choix méthodologiques,
+retours reçus et justification des révisions.
+
+::: {.callout-note appearance="simple" icon="false"}
+## À compléter
+
+Documenter des exemples de jalons intermédiaires et de traces de processus.
+:::
+
+## Le contrat pédagogique explicite
+
+Préciser pour chaque évaluation si l’utilisation de l’IA est interdite,
+tolérée, autorisée sous conditions ou explicitement attendue.
+
+::: {.callout-note appearance="simple" icon="false"}
+## À compléter
+
+Ajouter des formulations de consignes et des exemples de règles d’usage.
+
+Voir aussi [Les contrats pédagogiques](05-pedagogical-contracts.qmd).
+:::
+
+## L’évaluation orale et l’interaction directe
+
+Maintenir des moments d’échange direct — soutenance, questions orales,
+discussion ou démonstration — afin de vérifier l’appropriation des concepts
+et la capacité à défendre les choix réalisés.
+
+::: {.callout-note appearance="simple" icon="false"}
+## À compléter
+
+Décrire plusieurs formats courts compatibles avec de grands effectifs.
+:::
+
+## L’IA comme compétence à évaluer
+
+Évaluer la capacité à utiliser l’IA de manière raisonnée : formuler une
+demande, examiner une réponse, vérifier les affirmations, identifier les
+limites et améliorer la production obtenue.
+
+::: {.callout-note appearance="simple" icon="false"}
+## À compléter
+
+Proposer des critères d’évaluation de l’usage critique de l’IA.
+:::
+
+
+<!-- Styles specific to the diagram. -->
+
+<style>
+.ai-vulnerability {
+  margin: 2rem 0;
+  overflow: hidden;
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius-lg);
+}
+
+.ai-vulnerability__title {
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  color: var(--bs-body-color);
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+.ai-vulnerability__body {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.9fr) minmax(20rem, 1.3fr);
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.ai-vulnerability__pyramid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ai-vulnerability__layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4rem;
+  padding: 0.8rem 1.25rem;
+  color: var(--bs-white);
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25;
+  clip-path: polygon(12% 0, 88% 0, 100% 100%, 0 100%);
+}
+
+.ai-vulnerability__layer + .ai-vulnerability__layer {
+  margin-top: 0.3rem;
+}
+
+.ai-vulnerability__layer--top {
+  width: 48%;
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 55%,
+    var(--bs-dark)
+  );
+}
+
+.ai-vulnerability__layer--middle {
+  width: 72%;
+  color: var(--bs-body-color);
+  background: color-mix(
+    in srgb,
+    var(--bs-primary) 35%,
+    var(--bs-white)
+  );
+}
+
+.ai-vulnerability__layer--bottom {
+  width: 100%;
+  background: var(--bs-primary);
+}
+
+.ai-vulnerability__legend {
+  display: grid;
+  gap: 1rem;
+}
+
+.ai-vulnerability__legend-item {
+  padding-left: 1rem;
+  border-left: 0.3rem solid;
+}
+
+.ai-vulnerability__legend-item h4 {
+  margin: 0 0 0.3rem;
+  font-size: 1rem;
+}
+
+.ai-vulnerability__legend-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.ai-vulnerability__legend-item--top {
+  border-color: color-mix(
+    in srgb,
+    var(--bs-primary) 55%,
+    var(--bs-dark)
+  );
+}
+
+.ai-vulnerability__legend-item--middle {
+  border-color: color-mix(
+    in srgb,
+    var(--bs-primary) 35%,
+    var(--bs-white)
+  );
+}
+
+.ai-vulnerability__legend-item--bottom {
+  border-color: var(--bs-primary);
+}
+
+.ai-vulnerability__source {
+  padding: 1rem 1.5rem;
+  color: var(--bs-secondary-color);
+  background: var(--bs-light);
+  border-top: 1px solid var(--bs-border-color);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.ai-vulnerability__source p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .ai-vulnerability__body {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+
+  .ai-vulnerability__pyramid {
+    max-width: 28rem;
+    margin-inline: auto;
+  }
+}
+</style>

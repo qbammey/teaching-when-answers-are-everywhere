@@ -1,0 +1,14 @@
+---
+title: "Ressources"
+description: "Ressources internes et externes sur l’évaluation et l’IA générative."
+---
+
+Cette page complémentaire peut rassembler les textes institutionnels, rapports, questionnaires, travaux de recherche et ressources pratiques.
+
+## Ressources internes
+
+- Ajouter ici les documents institutionnels.
+
+## Ressources externes
+
+- Ajouter ici des références commentées.

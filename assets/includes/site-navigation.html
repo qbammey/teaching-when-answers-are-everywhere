@@ -1,0 +1,287 @@
+<script>
+(() => {
+  "use strict";
+
+  const SITE_TITLES = {
+    en: "Teaching when answers are everywhere",
+    fr: "Enseigner à l’ère de l’IA",
+  };
+
+  /* Register future guides here. The key must match the guide directory. */
+  const GUIDES = {
+    evaluations: {
+      en: "Evaluations",
+      fr: "Évaluations",
+    },
+  };
+
+  const UI = {
+    en: {
+      guides: "Guides",
+      otherLanguage: "Français",
+      sectionNavigation: "Section navigation",
+    },
+    fr: {
+      guides: "Guides",
+      otherLanguage: "English",
+      sectionNavigation: "Navigation entre les sections",
+    },
+  };
+
+  /*
+   * The directory in the URL is authoritative. This avoids treating French
+   * pages as English when a page accidentally inherits lang: en.
+   */
+  const languageFromPath = location.pathname.match(/\/(en|fr)(?:\/|$)/)?.[1];
+  const languageFromDocument = document.documentElement.lang
+    .toLowerCase()
+    .match(/^(en|fr)(?:-|$)/)?.[1];
+  const language = languageFromPath ?? languageFromDocument ?? null;
+
+  /* Leave the neutral root language-selection page unchanged. */
+  if (!language) return;
+
+  /*
+   * Determine the project root from the /en/ or /fr/ directory in the URL.
+   * This works both at localhost and in a GitHub Pages repository subpath.
+   */
+  const languageMarker = `/${language}/`;
+  const markerIndex = location.pathname.indexOf(languageMarker);
+  const rootPath = markerIndex >= 0
+    ? location.pathname.slice(0, markerIndex + 1)
+    : "/";
+
+  const siteUrl = (path) =>
+    new URL(`${rootPath}${path.replace(/^\/+/, "")}`, location.origin).href;
+
+  const siteRelativePath = (url = location.href) => {
+    const pathname = decodeURIComponent(new URL(url, location.href).pathname);
+
+    if (pathname.startsWith(rootPath)) {
+      return pathname.slice(rootPath.length).replace(/^\/+/, "");
+    }
+
+    const match = pathname.match(/(?:^|\/)((?:en|fr)\/.*)$/);
+    return match?.[1] ?? pathname.replace(/^\/+/, "");
+  };
+
+  /* Compare both ordinary .html URLs and clean URLs consistently. */
+  const normalizedPath = (path) =>
+    path
+      .replace(/[?#].*$/, "")
+      .replace(/index\.html$/, "")
+      .replace(/\.html$/, "")
+      .replace(/\/$/, "");
+
+  const currentPath = siteRelativePath();
+  const normalizedCurrentPath = normalizedPath(currentPath);
+  const guideMatch = currentPath.match(/^(en|fr)\/guides\/([^/]+)\//);
+  const currentGuideSlug = guideMatch?.[2] ?? null;
+  const currentGuide = currentGuideSlug ? GUIDES[currentGuideSlug] : null;
+  const guideRoot = currentGuideSlug
+    ? `${language}/guides/${currentGuideSlug}/`
+    : null;
+
+  const isGuideSectionPath = (path) => {
+    if (!guideRoot) return false;
+
+    const normalized = normalizedPath(path);
+    const normalizedRoot = normalizedPath(guideRoot);
+
+    if (!normalized.startsWith(`${normalizedRoot}/`)) return false;
+
+    const remainder = normalized.slice(normalizedRoot.length + 1);
+
+    return (
+      remainder.length > 0 &&
+      !remainder.includes("/") &&
+      remainder !== "index"
+    );
+  };
+
+  const isSectionPage = isGuideSectionPath(currentPath);
+
+  const label = (id) => document.getElementById(id);
+  const navbarToggle = (labelElement) =>
+    labelElement?.closest("a.nav-link, a.dropdown-toggle, a");
+  const navbarItem = (labelElement) =>
+    navbarToggle(labelElement)?.closest("li.nav-item, li.dropdown");
+
+  const setVisible = (labelElement, visible) => {
+    navbarItem(labelElement)?.classList.toggle("d-none", !visible);
+  };
+
+  const setDropdownItems = (labelElement, items) => {
+    const item = navbarItem(labelElement);
+    const menu = item?.querySelector(":scope > .dropdown-menu, .dropdown-menu");
+
+    if (!menu) return;
+
+    menu.replaceChildren(
+      ...items.map((entry) => {
+        const link = document.createElement("a");
+        link.className = "dropdown-item";
+        link.href = entry.href;
+        link.textContent = entry.text;
+
+        if (entry.active) {
+          link.classList.add("active");
+          link.setAttribute("aria-current", "page");
+        }
+
+        return link;
+      }),
+    );
+  };
+
+  /* Localized title and language-specific homepage link. */
+  const brandLink = document.querySelector("a.navbar-brand");
+  const titleNode = brandLink?.querySelector(".navbar-title");
+
+  if (titleNode) titleNode.textContent = SITE_TITLES[language];
+
+  if (brandLink) {
+    brandLink.href = siteUrl(`${language}/index.html`);
+    brandLink.setAttribute("aria-label", SITE_TITLES[language]);
+  }
+
+  document.title = document.title.replace(
+    /Teaching when answers are everywhere|Enseigner à l[’']ère de l[’']IA/,
+    SITE_TITLES[language],
+  );
+
+  /* Guide selector. */
+  const guideLabel = label("nav-guide-label");
+
+  if (guideLabel) {
+    guideLabel.textContent = currentGuide?.[language] ?? UI[language].guides;
+
+    setDropdownItems(
+      guideLabel,
+      Object.entries(GUIDES).map(([slug, guide]) => ({
+        text: guide[language],
+        href: siteUrl(`${language}/guides/${slug}/index.html`),
+        active: slug === currentGuideSlug,
+      })),
+    );
+  }
+
+  /*
+   * Section selector. Section names and order are read from the active
+   * Quarto sidebar, so they remain defined only once in _quarto.yml.
+   */
+  const sectionLabel = label("nav-section-label");
+
+  if (sectionLabel) {
+    setVisible(sectionLabel, isSectionPage);
+
+    if (isSectionPage) {
+      const sidebarLinks = [
+        ...document.querySelectorAll(
+          "#quarto-sidebar a[href], .sidebar-navigation a[href]",
+        ),
+      ];
+      const sections = new Map();
+
+      for (const link of sidebarLinks) {
+        const path = siteRelativePath(link.href);
+
+        if (!isGuideSectionPath(path)) continue;
+
+        const key = normalizedPath(path);
+        sections.set(key, {
+          text: link.textContent.trim(),
+          href: link.href,
+          active: key === normalizedCurrentPath,
+        });
+      }
+
+      const sectionItems = [...sections.values()];
+      const activeSection = sectionItems.find((entry) => entry.active);
+      const pageTitle = document.querySelector("h1.title")?.textContent.trim();
+
+      sectionLabel.textContent = activeSection?.text || pageTitle || "Section";
+      setDropdownItems(sectionLabel, sectionItems);
+    }
+  }
+
+  /* Language switch, preserving the current page when its translation exists. */
+  const languageLabel = label("nav-language-label");
+
+  if (languageLabel) {
+    const languageLink = navbarToggle(languageLabel);
+    const otherLanguage = language === "fr" ? "en" : "fr";
+    const translatedPath = currentPath.replace(
+      new RegExp(`^${language}/`),
+      `${otherLanguage}/`,
+    );
+    const fallbackPath = currentGuideSlug
+      ? `${otherLanguage}/guides/${currentGuideSlug}/index.html`
+      : `${otherLanguage}/index.html`;
+
+    languageLabel.textContent = UI[language].otherLanguage;
+
+    if (languageLink) {
+      /* Never fall back to the neutral website root. */
+      languageLink.href = siteUrl(fallbackPath);
+
+      fetch(siteUrl(translatedPath), {
+        method: "HEAD",
+        cache: "no-store",
+      })
+        .then((response) => {
+          if (response.ok) languageLink.href = siteUrl(translatedPath);
+        })
+        .catch(() => {
+          /* Keep the language-specific guide-home fallback. */
+        });
+    }
+  }
+
+  /*
+   * Keep page navigation only between main guide sections, then duplicate
+   * that filtered navigation at the top of the section.
+   */
+  const bottomNavigation = document.querySelector("nav.page-navigation");
+
+  if (!isSectionPage) {
+    bottomNavigation?.remove();
+    return;
+  }
+
+  if (!bottomNavigation) return;
+
+  for (const link of bottomNavigation.querySelectorAll("a[href]")) {
+    if (isGuideSectionPath(siteRelativePath(link.href))) continue;
+
+    const navigationItem = link.closest(".nav-page") ?? link.parentElement;
+    navigationItem?.remove();
+  }
+
+  if (!bottomNavigation.querySelector("a[href]")) {
+    bottomNavigation.remove();
+    return;
+  }
+
+  const main = document.querySelector("main.content");
+  if (!main) return;
+
+  const topNavigation = bottomNavigation.cloneNode(true);
+  topNavigation.classList.add("page-navigation-top");
+  topNavigation.setAttribute(
+    "aria-label",
+    UI[language].sectionNavigation,
+  );
+  topNavigation
+    .querySelectorAll("[id]")
+    .forEach((element) => element.removeAttribute("id"));
+
+  const titleBlock = main.querySelector("#title-block-header");
+
+  if (titleBlock) {
+    titleBlock.insertAdjacentElement("afterend", topNavigation);
+  } else {
+    main.prepend(topNavigation);
+  }
+})();
+</script>

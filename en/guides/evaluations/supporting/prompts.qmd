@@ -1,0 +1,18 @@
+---
+title: "Prompts"
+description: "Reusable prompts for designing and reviewing assessments."
+---
+
+Each prompt should state its purpose, required inputs, expected output, and points that the teacher must verify.
+
+## Prompt template
+
+::: {.callout-note title="Design an assessment"}
+**Purpose:** Describe the intended use.
+
+**Inputs:** Course level, learning outcomes, assessment format, duration, and constraints.
+
+**Prompt:** Add the reviewed prompt here.
+
+**Teacher checks:** List what must be verified before use.
+:::

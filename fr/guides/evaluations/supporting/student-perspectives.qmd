@@ -1,0 +1,6 @@
+---
+title: "Point de vue des étudiants"
+description: "Usages, expériences et perceptions de l’IA générative par les étudiants."
+---
+
+Cette page est réservée aux résultats d’enquêtes, d’entretiens ou d’ateliers menés auprès des étudiants. Elle peut temporairement être moins avancée que le reste du guide.

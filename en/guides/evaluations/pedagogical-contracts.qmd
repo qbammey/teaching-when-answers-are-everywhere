@@ -1,0 +1,14 @@
+---
+title: "Pedagogical contracts and disclosure"
+description: "Clarifying authorised AI uses and documenting student practice."
+---
+
+This chapter should provide principles and examples for clearly communicating what uses of AI are allowed, required, discouraged, or prohibited in a given assessment.
+
+## What a contract should state
+
+- the learning objectives;
+- authorised and prohibited uses;
+- disclosure and citation expectations;
+- responsibility for the submitted work;
+- consequences of non-compliance.

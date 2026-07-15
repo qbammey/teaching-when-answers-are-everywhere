@@ -1,0 +1,6 @@
+---
+title: "Équipe"
+description: "Contributeurs au guide Évaluations."
+---
+
+Présenter ici le groupe de travail, les contributeurs, les responsabilités éditoriales et les informations de contact.

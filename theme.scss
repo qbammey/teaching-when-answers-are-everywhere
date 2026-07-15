@@ -1,0 +1,508 @@
+/*-- scss:defaults --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&family=Ysabeau+SC:wght@1..1000&display=swap");
+
+$border-radius: 0.45rem;
+$border-radius-lg: 0.7rem;
+
+/*-- scss:rules --*/
+
+
+:root {
+  --tp-red: #{$brand-tp-red};
+  --tp-black: #{$brand-tp-black};
+  --tp-grey: #{$brand-tp-grey};
+  --tp-light: #{$brand-tp-light};
+  --tp-border: #{$brand-tp-border};
+  --tp-white: #{$brand-tp-white};
+}
+
+body {
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: $brand-tp-black !important;
+  border-bottom: 0.2rem solid $brand-tp-red;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-toggler-icon {
+  color: $brand-tp-white;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: $brand-tp-red !important;
+}
+
+.sidebar-navigation .active {
+  color: $brand-tp-red !important;
+}
+
+/* Hero sections */
+
+.guide-hero,
+.site-hero {
+  margin: 0 0 2.5rem;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  color: $brand-tp-white;
+  background: $brand-tp-black;
+  border-left: 0.45rem solid $brand-tp-red;
+  border-radius: var(--bs-border-radius-lg);
+}
+
+.guide-hero h1,
+.guide-hero h2,
+.site-hero h1,
+.site-hero h2 {
+  color: $brand-tp-white;
+}
+
+.guide-hero p,
+.site-hero p {
+  max-width: 52rem;
+  font-size: 1.08rem;
+}
+
+.guide-kicker {
+  margin-bottom: 0.8rem;
+  color: mix($brand-tp-white, $brand-tp-red, 70%);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.guide-updated {
+  margin-top: 1.5rem;
+  color: $brand-tp-grey;
+  font-size: 0.92rem;
+}
+
+/* Guide and supporting-page grids */
+
+.guide-grid,
+.supporting-grid,
+.guide-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2.5rem;
+}
+
+.guide-card,
+.supporting-card,
+.guide-list-item {
+  padding: 1.35rem;
+  background: $brand-tp-white;
+  border: 1px solid $brand-tp-border;
+  border-radius: var(--bs-border-radius-lg);
+}
+
+.guide-card {
+  border-top: 0.25rem solid $brand-tp-red;
+}
+
+.guide-card h3,
+.supporting-card h3,
+.guide-list-item h2 {
+  margin-top: 0.35rem;
+}
+
+.guide-card-number {
+  color: $brand-tp-red;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.supporting-card {
+  background: $brand-tp-light;
+}
+
+.guide-card a,
+.supporting-card a,
+.guide-list-item a {
+  text-decoration: none;
+}
+
+.guide-card:hover,
+.supporting-card:hover,
+.guide-list-item:hover {
+  border-color: mix($brand-tp-border, $brand-tp-black, 75%);
+}
+
+/* Key numbers */
+
+.key-numbers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.key-number {
+  padding: 1.25rem;
+  background: $brand-tp-light;
+  border-left: 0.3rem solid $brand-tp-red;
+  border-radius: var(--bs-border-radius);
+}
+
+.key-number h2,
+.key-number h3 {
+  margin: 0 0 0.35rem;
+  color: $brand-tp-red;
+}
+
+/* Page metadata */
+
+.quarto-title-meta {
+  color: $brand-tp-grey;
+}
+
+/* Small screens */
+
+@media (max-width: 575.98px) {
+  .guide-hero,
+  .site-hero {
+    margin-inline: -0.5rem;
+    padding: 1.5rem;
+  }
+}
+
+/* Number infographic */
+
+.metric-infographic {
+  margin: 2rem 0;
+  overflow: hidden;
+  color: $brand-tp-black;
+  background: $brand-tp-white;
+  border: 1px solid $brand-tp-border;
+  border-radius: var(--bs-border-radius-lg);
+
+  /*
+   * Prevent the infographic from inheriting unexpectedly large
+   * typography from its surrounding page.
+   */
+  font-size: var(--bs-body-font-size, 1rem);
+  line-height: 1.45;
+}
+
+.metric-title {
+  margin: 0;
+  padding: 1.75rem 2rem 0.9rem;
+  border-bottom: 0;
+  font-size: clamp(1.45rem, 2vw, 1.8rem);
+  line-height: 1.2;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0 1.5rem 2rem;
+}
+
+.metric-item {
+  min-width: 0;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.metric-item + .metric-item {
+  border-left: 1px solid $brand-tp-border;
+}
+
+.metric-item h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.metric-item p {
+  margin: 0;
+  font-size: inherit;
+}
+
+/* Gauges */
+
+.metric-gauge {
+  --fill: 50%;
+
+  display: block;
+  width: 2.8rem;
+  height: 9rem;
+  margin: 2.25rem auto 1.25rem;
+  overflow: hidden;
+  border: 1px solid $brand-tp-border;
+  border-radius: 0.35rem;
+
+  background: linear-gradient(
+    to top,
+    $brand-tp-red 0,
+    $brand-tp-red var(--fill),
+    $brand-tp-light var(--fill),
+    $brand-tp-light 100%
+  );
+}
+
+/*
+ * Dark red: guaranteed minimum.
+ * Light red: reported interval between minimum and maximum.
+ * Grey: values above the reported maximum.
+ */
+
+.metric-gauge-range {
+  --minimum: 0%;
+  --maximum: 100%;
+  --metric-range-red: #{mix($brand-tp-red, $brand-tp-white, 35%)};
+
+  background: linear-gradient(
+    to top,
+    $brand-tp-red 0,
+    $brand-tp-red var(--minimum),
+    var(--metric-range-red) var(--minimum),
+    var(--metric-range-red) var(--maximum),
+    $brand-tp-light var(--maximum),
+    $brand-tp-light 100%
+  );
+}
+
+/* Labels */
+
+.metric-value {
+  display: block;
+  margin-top: 0.25rem;
+  color: $brand-tp-red;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.metric-source {
+  display: block;
+  margin-top: 0.6rem;
+  color: rgba($brand-tp-black, 0.6);
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.metric-description {
+  display: block;
+  max-width: 18rem;
+  margin: 0.7rem auto 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* Conclusion and citation */
+
+.metric-conclusion {
+  padding: 1.25rem 2rem;
+  color: $brand-tp-white;
+  background: $brand-tp-black;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.metric-conclusion p,
+.metric-citation p {
+  margin: 0;
+  font-size: inherit;
+}
+
+.metric-citation {
+  padding: 1rem 2rem 1.25rem;
+  color: rgba($brand-tp-black, 0.58);
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+/* Responsive layout */
+
+@media (max-width: 800px) {
+  .metric-title {
+    padding: 1.4rem 1.25rem 0.75rem;
+  }
+
+  .metric-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1.25rem 1.25rem;
+  }
+
+  .metric-item {
+    padding: 1.5rem 0;
+  }
+
+  .metric-item + .metric-item {
+    border-top: 1px solid $brand-tp-border;
+    border-left: 0;
+  }
+
+  .metric-gauge {
+    height: 8rem;
+    margin-top: 1.5rem;
+  }
+
+  .metric-conclusion,
+  .metric-citation {
+    padding-inline: 1.25rem;
+  }
+}
+
+/* Quotations and first-hand accounts */
+
+.quotation {
+  margin: 2rem 0;
+  padding: 1.4rem 1.6rem;
+  background: $brand-tp-light;
+  border-left: 0.3rem solid $brand-tp-red;
+  border-radius: var(--bs-border-radius);
+}
+
+.quotation blockquote {
+  margin: 0;
+  padding: 0;
+  color: $brand-tp-black;
+  border: 0;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.quotation blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.quotation-attribution {
+  display: block;
+  margin-top: 1rem;
+  color: rgba($brand-tp-black, 0.65);
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+/* Collapsible note callouts */
+
+div.callout.callout-note:has(
+  > .callout-header[data-bs-toggle="collapse"]
+) {
+  margin: 0 0 0.875rem;
+  padding: 0;
+  overflow: hidden;
+  background: $brand-tp-white;
+  border: 1px solid $brand-tp-grey;
+  border-radius: 0.5rem;
+
+  > .callout-header[data-bs-toggle="collapse"] {
+    margin: 0;
+    padding: 1.125rem 1.375rem;
+    color: $brand-tp-black;
+    background: $brand-tp-light;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    cursor: pointer;
+
+    &:hover {
+      background: darken($brand-tp-light, 3.5%);
+    }
+
+    &:focus-visible {
+      outline: 2px solid $brand-tp-red;
+      outline-offset: -2px;
+    }
+
+    .callout-icon-container {
+      display: none;
+    }
+
+    .callout-title-container {
+      font-size: inherit;
+      font-weight: inherit;
+    }
+
+    .callout-btn-toggle {
+      display: flex !important;
+      align-items: center;
+      margin-left: 1rem;
+      padding: 0 !important;
+    }
+
+    .callout-toggle {
+      display: block;
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+
+    .callout-toggle::before {
+      display: block;
+      width: 0.55rem;
+      height: 0.55rem;
+      content: "";
+      background-image: none !important;
+      border-right: 0.13rem solid $brand-tp-red;
+      border-bottom: 0.13rem solid $brand-tp-red;
+      transform: rotate(45deg);
+      transition: transform 0.2s ease;
+    }
+
+    &:not(.collapsed) .callout-toggle::before {
+      transform: rotate(225deg);
+    }
+  }
+
+  > .callout-collapse {
+    background: $brand-tp-white;
+
+    > .callout-body-container {
+      padding: 0.375rem 1.375rem 1.375rem;
+    }
+  }
+
+  .callout-body > :first-child {
+    margin-top: 0;
+  }
+
+  .callout-body > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Previous and next section navigation */
+
+.page-navigation {
+  gap: 1rem;
+}
+
+.page-navigation .pagination-link {
+  padding: 0.7rem 0.9rem;
+  text-decoration: none;
+  border: 1px solid $brand-tp-border;
+  border-radius: var(--bs-border-radius);
+}
+
+.page-navigation .pagination-link:hover {
+  background: $brand-tp-light;
+  border-color: $brand-tp-red;
+}
+
+.page-navigation-top {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $brand-tp-border;
+}

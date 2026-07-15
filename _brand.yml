@@ -1,0 +1,31 @@
+meta:
+  name: Télécom Paris — Teaching when answers are everywhere
+
+color:
+  palette:
+    tp-red: "#c71748"
+    tp-black: "#000000"
+    tp-grey: "#c6c6c6"
+    tp-light: "#f5f5f5"
+    tp-border: "#dedfe2"
+    tp-white: "#ffffff"
+
+  foreground: tp-black
+  background: tp-white
+  primary: tp-red
+  secondary: tp-grey
+  light: tp-light
+  dark: tp-black
+
+typography:
+  fonts:
+    - family: Ysabeau Infant
+      source: google
+
+  base:
+    family: Ysabeau Infant
+    line-height: 1.65
+
+  headings:
+    family: Ysabeau Infant
+    weight: 700

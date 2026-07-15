@@ -1,0 +1,96 @@
+---
+title-meta: "Évaluations"
+description: "Concevoir des évaluations robustes à l’ère de l’IA générative."
+date-modified: 2026-07-13
+page-layout: full
+sidebar: false
+toc: false
+---
+
+::: {.guide-hero}
+::: {.guide-kicker}
+Enseigner à l’ère de l’IA
+:::
+
+# Évaluations
+
+Comment préserver le sens des évaluations lorsque les étudiants ont facilement accès à l’IA générative ? Ce guide vivant rassemble des principes, des approches et des solutions pratiques à destination des enseignants.
+
+[Commencer le guide](introduction.qmd){.btn .btn-primary .btn-lg}
+
+::: {.guide-updated}
+**Dernière mise à jour :** {{< meta date-modified >}}
+:::
+:::
+
+## Sections du guide
+
+::: {.guide-grid}
+::: {.guide-card}
+[1]{.guide-card-number}
+
+### [Introduction et contexte](introduction.qmd)
+
+Pourquoi ce guide est nécessaire et ce qui change dans l’évaluation des étudiants.
+:::
+
+::: {.guide-card}
+[2]{.guide-card-number}
+
+### [Approches pour des évaluations robustes](approaches.qmd)
+
+Des stratégies complémentaires fondées sur le processus, la singularité, le contrat pédagogique, le dialogue, et la maîtrise de l’IA.
+:::
+
+::: {.guide-card}
+[3]{.guide-card-number}
+
+### [Solutions par modalité d’évaluation](modalities.qmd)
+
+Des recommandations pour les examens, TP, projets, rapports, oraux et travaux de programmation.
+:::
+
+::: {.guide-card}
+[4]{.guide-card-number}
+
+### [Détection de l’IA](ai-detection.qmd)
+
+Pourquoi la détection automatique n’est pas fiable.
+:::
+
+::: {.guide-card}
+[5]{.guide-card-number}
+
+### [Contrats pédagogiques et déclaration](pedagogical-contracts.qmd)
+
+Clarifier les attentes et documenter les usages autorisés de l’IA.
+:::
+:::
+
+## Pages complémentaires
+
+::: {.supporting-grid}
+::: {.supporting-card}
+### [Ressources](supporting/resources.qmd)
+
+Références internes et externes, textes de cadrage et pistes de lecture.
+:::
+
+::: {.supporting-card}
+### [Prompts](supporting/prompts.qmd)
+
+Des prompts réutilisables pour accompagner la conception des évaluations.
+:::
+
+::: {.supporting-card}
+### [Point de vue des étudiants](supporting/student-perspectives.qmd)
+
+Usages, expériences et perceptions de l’IA par les étudiants.
+:::
+
+::: {.supporting-card}
+### [Équipe](supporting/team.qmd)
+
+Contributeurs et informations de contact.
+:::
+:::

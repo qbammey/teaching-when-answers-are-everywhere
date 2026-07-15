@@ -1,0 +1,23 @@
+---
+title-meta: "Teaching when answers are everywhere — Enseigner à l’ère de l’IA"
+page-layout: full
+navbar: false
+sidebar: false
+toc: false
+---
+
+::: {.site-hero}
+::: {.guide-kicker}
+Télécom Paris
+:::
+
+# Teaching when answers are everywhere
+
+## Enseigner à l’ère de l’IA
+
+A collection of practical guides for teaching in the era of generative AI.
+
+Une collection de guides pratiques pour enseigner à l’ère de l’IA générative.
+
+[English](en/index.qmd){.btn .btn-primary .btn-lg} [Français](fr/index.qmd){.btn .btn-primary .btn-lg}
+:::

@@ -1,0 +1,72 @@
+---
+title: "Contrats pédagogiques et déclaration"
+description: "Clarifier les usages autorisés de l’IA et documenter les pratiques des étudiants."
+---
+
+## Principes d'un contrat pédagogique pour l'usage de l'IA
+
+Le contrat pédagogique est un accord explicite entre l'enseignant et les étudiants, défini en début de cours ou d'évaluation, précisant les règles d'usages de l'IA pour ce contexte.
+
+* Il distingue les évaluations où l'IA est interdite, tolérée ou attendue,
+* Il précise les modalités de déclaration obligatoire,
+* Il peut s'ancrer dans les règlements intérieurs, la charte d'établissement ou du cursus, …
+
+## Conseils à la rédaction d'un contrat pédagogique
+
+### Déclaration de l'usage d'IA
+
+Il est conseillé de demander à l'étudiant de déclarer, à l'écrit, l'usage qu'il a ou non fait de l'IA dans le cadre d'un travail certifiant comme un TP à la maison, un projet, …
+
+Cette déclaration doit dans l'idéal être rédigée (il ne s'agit pas juste de «cocher des cases»), potentiellement manuscrite. Outre l'engagement déclaratif, il s'agit également d'offrir à l'étudiant une opportunité de prendre du recul sur son propre apprentissage.
+
+### Contrat écrit et oral
+
+Pour éviter toute ambiguïté, il est nécessaire que le contrat pédagogique soit transmis aux étudiants sous une forme écrite et traçable. Il est également conseillé de le présenter oralement aux élèves, les invitant à lire le contrat écrit, afin de leur faire comprendre que ce contrat est dans leur intérêt d'apprentissage, et de répondre à leurs questions.
+
+### Contrat et évaluation
+
+Afin d'inciter au respect du contrat, il est important dans la mesure du possible que les élèves comprennent que les critères d'évaluation ne favorisent pas des usages de l'IA interdits par le contrat pédagogique. Voir les [Solutions par modalité d'évaluation](modalities)) pour des pistes. 
+
+### Exemples autorisés et interdits
+
+Outre des règles précisant ce qui est autorisé ou non, il est conseillé de limiter autant que possible les ambiguïtés et de fournir des exemples de cas tolérés/encouragés ou proscrit.
+
+## Exemples de contrats pédagogiques
+
+### Usage de l'IA interdit
+
+::: {.callout-note title="Usage de l'IA interdit"}
+À compléter
+:::
+
+### Usage de l'IA encadré
+
+#### Cours Detection Theory and Industrial Applications (Master MVA)
+
+Évaluation par projet : les étudiants doivent, seuls ou en paires, lire un article, l'analyser, éventuellement l'implémenter, expérimenter avec la méthode, potentiellement l'étendre, et en fournir une analyse critique.
+
+**À adapter et traduire**
+
+The goal of this project is not only to create scientific content, but also to develop your understanding of detection, and hone skills in research and scientific reading and writing. The responsible use of AI tools is permitted, especially if it enables you to delve deeper into the project and develop new skills. However, if used in a wrong way, these tools can instead inhibit your learning experience. 
+We will not penalize the use of AI tools, as long as it is responsible. However, we ask that in a separate section of your report, you **document whether AI tools were used, for which tasks and how.**
+
+Furthermore, note that **you remain responsible for the content of your report and presentation.** You are responsible to make sure that what you write and present is correct, and to avoid plagiarism.
+
+Below are examples of what would be considered a responsible use of AI (allowed), and what is considered an unacceptable use of AI (forbidden). If you have any other use case in mind, ask the teachers whether this specific use is allowed. Without explicit authorization, consider unmentioned use cases as forbidden.
+
+:::: {.red-green-table}
+
+| Category |  **Responsible use of AI** | **Unacceptable use of AI** |
+| --- | --- | --- |
+| **Overall goal** | **Challenge your thoughts, enable you to go deeper and learn new skills** | **Do the project for you, lessen your workload, avoid learning** |
+| Reading papers | Refine and challenge your understanding of a paper, compare an LLM explanation to yours | Summarize the paper to avoid having to read it |
+| Coding | Glue code together, write interfaces, optimize parts (be careful it still does what you want it to do), write plotting code, organize code/data/results | implement the core algorithm (coding an algorithm yourself is a great way to understand it) |
+| Writing | Analyse your report, make suggestions, discuss on your structure and choices | Write complete sentences or paragraphs for you |
+| Presentation | Create animated visuals, analyse your presentation structure, make suggestions | Prepare or structure your presentation automatically from the paper or report |
+
+::::
+
+<style>
+.red-green-table table tr > :nth-child(2) {background-color: var(--bs-danger-bg-subtle);}
+.red-green-table table tr > :nth-child(3) {background-color: var(--bs-success-bg-subtle);}
+</style>

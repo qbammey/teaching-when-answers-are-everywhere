@@ -1,0 +1,77 @@
+---
+title: "Solutions d’évaluation robustes à l’IA par modalité pédagogique"
+description: "Adapter les évaluations selon leur format et leur contexte."
+---
+
+Pour chaque modalité, cette section présente des adaptations possibles afin
+de concevoir des évaluations moins substituables par l’IA générative.
+
+::: {.callout-note title="Examen sur table ou en salle blanche" collapse="true"  icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+::: {.callout-note title="Travaux pratiques" collapse="true" icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+::: {.callout-note title="Oral : soutenance, présentation ou interrogation" collapse="true" icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+::: {.callout-note title="Projet individuel ou collectif" collapse="true" icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+::: {.callout-note title="Rapport et devoir écrit" collapse="true" icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+::: {.callout-note title="Mémoire de stage, de recherche ou de fin d’études" collapse="true" icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+::: {.callout-note title="Code et productions techniques" collapse="true" icon="false"}
+
+**À compléter**
+
+Recommandations à documenter par le groupe de travail.
+
+:::
+
+## Retour d’enseignant
+
+:::: {.quotation}
+
+>Pour mon cours de projet en master, j'ai remplacé le rapport écrit final par une soutenance orale appuyée sur un carnet de bord tenu tout au long du semestre. Au départ, j'avais peur que cela alourdisse ma charge de correction.
+>
+>En réalité, le carnet de bord m'a permis de suivre la progression réelle de chaque étudiant et de repérer immédiatement les groupes qui s'appuyaient trop sur l'IA sans recul critique. La soutenance orale a fait le reste : impossible de bluffer quand on doit justifier ses choix en direct.
+>
+>Le seul vrai coût, c'est le temps de préparation la première année. Une fois la grille d'évaluation du processus posée, ça devient un format que je réutilise d'une promotion à l'autre. »
+
+[— **M. Dupont**, enseignant-chercheur, Télécom Paris]{.quotation-attribution}
+
+::::

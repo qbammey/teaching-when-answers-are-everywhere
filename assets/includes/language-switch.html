@@ -1,0 +1,61 @@
+<script>
+(() => {
+  const languagePattern = /\/(en|fr)(?=\/|$)/;
+
+  function fallbackFor(targetPath) {
+    const guideMarker = "/guides/evaluations/";
+    const guidePosition = targetPath.indexOf(guideMarker);
+
+    if (guidePosition !== -1) {
+      return targetPath.slice(0, guidePosition + guideMarker.length);
+    }
+
+    const languageRoot = targetPath.match(/^(.*\/(?:en|fr))(?:\/.*)?$/);
+    return languageRoot ? `${languageRoot[1]}/` : targetPath;
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const switcher = document.querySelector('a[href$="#language-switch"]');
+    if (!switcher) return;
+
+    const currentPath = window.location.pathname;
+    const match = currentPath.match(languagePattern);
+
+    if (!match) {
+      switcher.closest(".nav-item")?.remove();
+      return;
+    }
+
+    const currentLanguage = match[1];
+    const targetLanguage = currentLanguage === "en" ? "fr" : "en";
+    const targetLabel = targetLanguage === "fr" ? "Français" : "English";
+    const targetPath = currentPath.replace(languagePattern, `/${targetLanguage}`);
+
+    switcher.textContent = targetLabel;
+    switcher.href = targetPath;
+    switcher.lang = targetLanguage;
+    switcher.hreflang = targetLanguage;
+    switcher.setAttribute("aria-label", `Switch to ${targetLabel}`);
+
+    switcher.addEventListener("click", async (event) => {
+      event.preventDefault();
+
+      try {
+        const response = await fetch(targetPath, {
+          method: "HEAD",
+          cache: "no-store"
+        });
+
+        if (response.ok) {
+          window.location.assign(targetPath);
+          return;
+        }
+      } catch (_) {
+        // Fall back to the translated guide or language homepage below.
+      }
+
+      window.location.assign(fallbackFor(targetPath));
+    });
+  });
+})();
+</script>

@@ -93,4 +93,11 @@ Usages, expériences et perceptions de l’IA par les étudiants.
 
 Contributeurs et informations de contact.
 :::
+
+::: {.supporting-card}
+### [Contribuer](supporting/contribute.qmd)
+
+Aide technique pour contribuer au guide.
+:::
+
 :::

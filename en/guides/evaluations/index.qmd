@@ -93,4 +93,12 @@ Student uses, experiences, and perceptions of AI.
 
 Contributors and contact information.
 :::
+
+::: {.supporting-card}
+### [Contribute](supporting/contribute.qmd)
+
+Help to contribute to the guide
+:::
+
+
 :::

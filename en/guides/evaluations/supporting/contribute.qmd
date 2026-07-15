@@ -1,0 +1,38 @@
+---
+title: "Contribuer au guide"
+description: "Explications sur le fonctionnement technique du guide"
+---
+
+Le site est compilé avec Quarto. Les différentes pages sont simplement en markdown et peuvent être modifiées avec un simple éditeur de texte.
+
+Les pages du guide évaluation (seul guide écrit à ce jour) sont dans `fr/guides/evaluations` en français (remplacer `fr` par `en` pour les pages en anglais).
+
+La page d'accueil de ce guide est `fr/guides/evaluations/index.qmd`, les sections sont les autres pages `*.qmd` dans ce dossier. Enfin, les pages supplémentaires sont dans le sous-dossier `supporting/`
+
+Pour éditer une page du guide, il suffit d'ouvrir le fichier correspondant. Par exemple, pour éditer la section sur la détection de textes générés, il faut donc éditer `fr/guides/evaluations/ai-detection.qmd`.
+
+## Droits d'édition
+
+Pour pouvoir éditer le guide, envoyez un email à Q. Bammey avec votre identifiant github.
+
+## Structure d'une page
+
+La page commence par une entête délimitée entre deux lignes de trois tirets chacune (`---`). L'entête contient notamment le titre et la description de la page:
+
+```yaml
+---
+title: "Détection de l’IA"
+description: "Limites de la détection automatique et alternatives plus sûres."
+---
+```
+
+Le reste de la page est écrit en markdown. Il suffit donc d'écrire le contenu de la page comme du texte, avec simplement des marqueurs pour les titres, liens, gras, etc. Voir [ici](https://quarto.org/docs/authoring/markdown-basics.html) pour les basiques du markdown.
+
+## Ajouter une page
+
+Pour ajouter une nouvelle page, il faut créer la page en markdown, mais également dans le menu `_quarto.yml` et dans les guides
+`{fr,en}/guides/evaluations/index.qmd`. Pour maintenir la cohérence, il est important de créer la page dans les deux langues, avec le même nom de fichier dans les deux dossiers (il est toutefois possible de dupliquer la page sans la traduire).
+
+## Structures avancées
+
+Quarto supporte l'ajout de code à exécuter, de javascript/html, de diagrammes, et bien d'autres. Voir [la documentation](https://quarto.org/docs/guide/) ou s'inspirer des pages existantes !

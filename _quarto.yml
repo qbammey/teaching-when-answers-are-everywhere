@@ -82,6 +82,8 @@ website:
               href: en/guides/evaluations/supporting/student-perspectives.qmd
             - text: Team
               href: en/guides/evaluations/supporting/team.qmd
+            - text: Guide to contribute
+              href: en/guides/evaluations/supporting/contribute.qmd
 
     - id: evaluations-fr
       title: Évaluations

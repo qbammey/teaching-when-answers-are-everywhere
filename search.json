@@ -1,0 +1,778 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teaching when answers are everywhere",
+    "section": "",
+    "text": "Télécom Paris\n\n\n\n\n\nA collection of practical guides for teaching in the era of generative AI.\nUne collection de guides pratiques pour enseigner à l’ère de l’IA générative.\nEnglish Français"
+  },
+  {
+    "objectID": "index.html#enseigner-à-lère-de-lia",
+    "href": "index.html#enseigner-à-lère-de-lia",
+    "title": "Teaching when answers are everywhere",
+    "section": "",
+    "text": "A collection of practical guides for teaching in the era of generative AI.\nUne collection de guides pratiques pour enseigner à l’ère de l’IA générative.\nEnglish Français"
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/team.html",
+    "href": "fr/guides/evaluations/supporting/team.html",
+    "title": "Équipe",
+    "section": "",
+    "text": "Présenter ici le groupe de travail, les contributeurs, les responsabilités éditoriales et les informations de contact.\n\n\n\n Retour au sommet",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Équipe"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/resources.html",
+    "href": "fr/guides/evaluations/supporting/resources.html",
+    "title": "Ressources",
+    "section": "",
+    "text": "Cette page complémentaire peut rassembler les textes institutionnels, rapports, questionnaires, travaux de recherche et ressources pratiques.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Ressources"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/resources.html#ressources-internes",
+    "href": "fr/guides/evaluations/supporting/resources.html#ressources-internes",
+    "title": "Ressources",
+    "section": "Ressources internes",
+    "text": "Ressources internes\n\nAjouter ici les documents institutionnels.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Ressources"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/resources.html#ressources-externes",
+    "href": "fr/guides/evaluations/supporting/resources.html#ressources-externes",
+    "title": "Ressources",
+    "section": "Ressources externes",
+    "text": "Ressources externes\n\nAjouter ici des références commentées.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Ressources"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/pedagogical-contracts.html",
+    "href": "fr/guides/evaluations/pedagogical-contracts.html",
+    "title": "Contrats pédagogiques et déclaration",
+    "section": "",
+    "text": "Le contrat pédagogique est un accord explicite entre l’enseignant et les étudiants, défini en début de cours ou d’évaluation, précisant les règles d’usages de l’IA pour ce contexte.\n\nIl distingue les évaluations où l’IA est interdite, tolérée ou attendue,\nIl précise les modalités de déclaration obligatoire,\nIl peut s’ancrer dans les règlements intérieurs, la charte d’établissement ou du cursus, …",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "5. Contrats pédagogiques et déclaration"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/pedagogical-contracts.html#principes-dun-contrat-pédagogique-pour-lusage-de-lia",
+    "href": "fr/guides/evaluations/pedagogical-contracts.html#principes-dun-contrat-pédagogique-pour-lusage-de-lia",
+    "title": "Contrats pédagogiques et déclaration",
+    "section": "",
+    "text": "Le contrat pédagogique est un accord explicite entre l’enseignant et les étudiants, défini en début de cours ou d’évaluation, précisant les règles d’usages de l’IA pour ce contexte.\n\nIl distingue les évaluations où l’IA est interdite, tolérée ou attendue,\nIl précise les modalités de déclaration obligatoire,\nIl peut s’ancrer dans les règlements intérieurs, la charte d’établissement ou du cursus, …",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "5. Contrats pédagogiques et déclaration"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/pedagogical-contracts.html#conseils-à-la-rédaction-dun-contrat-pédagogique",
+    "href": "fr/guides/evaluations/pedagogical-contracts.html#conseils-à-la-rédaction-dun-contrat-pédagogique",
+    "title": "Contrats pédagogiques et déclaration",
+    "section": "Conseils à la rédaction d’un contrat pédagogique",
+    "text": "Conseils à la rédaction d’un contrat pédagogique\n\nDéclaration de l’usage d’IA\nIl est conseillé de demander à l’étudiant de déclarer, à l’écrit, l’usage qu’il a ou non fait de l’IA dans le cadre d’un travail certifiant comme un TP à la maison, un projet, …\nCette déclaration doit dans l’idéal être rédigée (il ne s’agit pas juste de «cocher des cases»), potentiellement manuscrite. Outre l’engagement déclaratif, il s’agit également d’offrir à l’étudiant une opportunité de prendre du recul sur son propre apprentissage.\n\n\nContrat écrit et oral\nPour éviter toute ambiguïté, il est nécessaire que le contrat pédagogique soit transmis aux étudiants sous une forme écrite et traçable. Il est également conseillé de le présenter oralement aux élèves, les invitant à lire le contrat écrit, afin de leur faire comprendre que ce contrat est dans leur intérêt d’apprentissage, et de répondre à leurs questions.\n\n\nContrat et évaluation\nAfin d’inciter au respect du contrat, il est important dans la mesure du possible que les élèves comprennent que les critères d’évaluation ne favorisent pas des usages de l’IA interdits par le contrat pédagogique. Voir les Solutions par modalité d’évaluation) pour des pistes.\n\n\nExemples autorisés et interdits\nOutre des règles précisant ce qui est autorisé ou non, il est conseillé de limiter autant que possible les ambiguïtés et de fournir des exemples de cas tolérés/encouragés ou proscrit.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "5. Contrats pédagogiques et déclaration"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/pedagogical-contracts.html#exemples-de-contrats-pédagogiques",
+    "href": "fr/guides/evaluations/pedagogical-contracts.html#exemples-de-contrats-pédagogiques",
+    "title": "Contrats pédagogiques et déclaration",
+    "section": "Exemples de contrats pédagogiques",
+    "text": "Exemples de contrats pédagogiques\n\nUsage de l’IA interdit\n\n\n\n\n\n\nNoteUsage de l’IA interdit\n\n\n\nÀ compléter\n\n\n\n\nUsage de l’IA encadré\n\nCours Detection Theory and Industrial Applications (Master MVA)\nÉvaluation par projet : les étudiants doivent, seuls ou en paires, lire un article, l’analyser, éventuellement l’implémenter, expérimenter avec la méthode, potentiellement l’étendre, et en fournir une analyse critique.\nÀ adapter et traduire\nThe goal of this project is not only to create scientific content, but also to develop your understanding of detection, and hone skills in research and scientific reading and writing. The responsible use of AI tools is permitted, especially if it enables you to delve deeper into the project and develop new skills. However, if used in a wrong way, these tools can instead inhibit your learning experience. We will not penalize the use of AI tools, as long as it is responsible. However, we ask that in a separate section of your report, you document whether AI tools were used, for which tasks and how.\nFurthermore, note that you remain responsible for the content of your report and presentation. You are responsible to make sure that what you write and present is correct, and to avoid plagiarism.\nBelow are examples of what would be considered a responsible use of AI (allowed), and what is considered an unacceptable use of AI (forbidden). If you have any other use case in mind, ask the teachers whether this specific use is allowed. Without explicit authorization, consider unmentioned use cases as forbidden.\n\n\n\n\n\n\n\n\n\nCategory\nResponsible use of AI\nUnacceptable use of AI\n\n\n\n\nOverall goal\nChallenge your thoughts, enable you to go deeper and learn new skills\nDo the project for you, lessen your workload, avoid learning\n\n\nReading papers\nRefine and challenge your understanding of a paper, compare an LLM explanation to yours\nSummarize the paper to avoid having to read it\n\n\nCoding\nGlue code together, write interfaces, optimize parts (be careful it still does what you want it to do), write plotting code, organize code/data/results\nimplement the core algorithm (coding an algorithm yourself is a great way to understand it)\n\n\nWriting\nAnalyse your report, make suggestions, discuss on your structure and choices\nWrite complete sentences or paragraphs for you\n\n\nPresentation\nCreate animated visuals, analyse your presentation structure, make suggestions\nPrepare or structure your presentation automatically from the paper or report",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "5. Contrats pédagogiques et déclaration"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html",
+    "href": "fr/guides/evaluations/introduction.html",
+    "title": "Introduction et contexte",
+    "section": "",
+    "text": "NoteRefonder l’évaluation\n\n\n\n\n\nCesser d’évaluer la simple production de contenus\nÉvaluer les étudiants sur leur capacité de jugement, de discernement critique et de supervision des systèmes autonomes.\nÀ la question «Quelle posture adoptez-vous face à l’IA dans vos évaluations ?»,",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#pourquoi-ce-guide",
+    "href": "fr/guides/evaluations/introduction.html#pourquoi-ce-guide",
+    "title": "Introduction et contexte",
+    "section": "Pourquoi ce guide ?",
+    "text": "Pourquoi ce guide ?\nCe document est un outil vivant, alimenté collectivement par le groupe de travail Évaluation & IA de Télécom Paris. Il vise à capitaliser sur les pratiques, les expériences et les réflexions des enseignants-chercheurs face à l’usage croissant de l’IA générative par les étudiants.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#état-des-lieux",
+    "href": "fr/guides/evaluations/introduction.html#état-des-lieux",
+    "title": "Introduction et contexte",
+    "section": "État des lieux",
+    "text": "État des lieux\nRésultats issu du questionnaire adressé aux enseignants-chercheurs :\nL’IA générative modifie les tâches qui permettent d’observer de manière fiable les apprentissages des étudiants. L’objectif n’est pas de rendre chaque évaluation invulnérable à tout outil, mais de l’aligner sur les acquis visés et de rendre les attentes explicites.\n\n\n\n\n\n\nNotePrincipe éditorial\n\n\n\nPrivilégier les évolutions qui améliorent la valeur pédagogique de l’évaluation, y compris lorsqu’aucun outil d’IA n’est utilisé.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#emplacement-pour-des-chiffres-clés",
+    "href": "fr/guides/evaluations/introduction.html#emplacement-pour-des-chiffres-clés",
+    "title": "Introduction et contexte",
+    "section": "Emplacement pour des chiffres clés",
+    "text": "Emplacement pour des chiffres clés",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#section",
+    "href": "fr/guides/evaluations/introduction.html#section",
+    "title": "Introduction et contexte",
+    "section": "3,4 / 5",
+    "text": "3,4 / 5\nNote moyenne attribuée par les enseignants à la question « Dans quelle mesure l’IA a-t-elle modifié vos pratiques d’évaluation ?» (1: pas du tout, 5: très fortement).",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#deux-tiers",
+    "href": "fr/guides/evaluations/introduction.html#deux-tiers",
+    "title": "Introduction et contexte",
+    "section": "Deux tiers",
+    "text": "Deux tiers\ndes enseignants estiment que les étudiants utilisent l’IA dans la quasi-totalité des rendus.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#section-1",
+    "href": "fr/guides/evaluations/introduction.html#section-1",
+    "title": "Introduction et contexte",
+    "section": "42%",
+    "text": "42%\ncitent le manque de temps pour repenser les sujets comme difficulté principale de l’adaptation des évaluations aux outils d’IA générative.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/introduction.html#lia-réussit-lexamen-traditionnel",
+    "href": "fr/guides/evaluations/introduction.html#lia-réussit-lexamen-traditionnel",
+    "title": "Introduction et contexte",
+    "section": "L’IA réussit l’examen traditionnel",
+    "text": "L’IA réussit l’examen traditionnel\n\n\nProgrammation\n\n\n\n68 % – 90 %\nNikolic et al., 2023\nScore de réussite aux examens et travaux écrits.\n\n\nAffaires et gestion\n\n\n\n78,1 %\nAdilov et al., 2024\nPrécision aux QCM et exercices de rédaction.\n\n\nPhysique\n\n\n\n60 %\nKortemeyer, 2023\nScore obtenu par un agent IA dans un cours d’introduction.\n\n\n\nL’évaluation standardisée, non supervisée, n’est plus une mesure fiable de la compétence exclusive de l’étudiant.\n\n\nSource : Cathia Papi, Amélie Beaudoin, Nilce Da Silva, Serge Gérin-Lajoie et Marie-Hélène Hébert, « Repenser l’évaluation des apprentissages à l’ère de l’IA : une revue de la littérature anglophone », Distances et médiations des savoirs, no 54, 2026.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "1. Introduction et contexte"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html",
+    "href": "fr/guides/evaluations/approaches.html",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "",
+    "text": "Évaluation traditionnelle\nÉvaluation authentique\n\n\n\n\nObjet évalué\nLe produit fini\nLe processus cognitif et les itérations\n\n\nNature de la tâche\nStandardisée, décontextualisée, principalement fondée sur la restitution\nComplexe, contextualisée, professionnalisante et ancrée dans le réel\n\n\nFormat\nÉcrit non supervisé et QCM classiques\nProjets, soutenances orales, simulations et activités collaboratives\n\n\nRôle de l’IA\nMenace extérieure et possible moyen de fraude\nOutil intégré dont l’usage est analysé, justifié et discuté\n\n\n\n\n\n\n\n\n\nCes approches ne sont pas exclusives. Elles peuvent être combinées selon le contexte, le niveau des étudiants et les objectifs pédagogiques.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#le-changement-de-paradigme-vers-lévaluation-authentique",
+    "href": "fr/guides/evaluations/approaches.html#le-changement-de-paradigme-vers-lévaluation-authentique",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "",
+    "text": "Évaluation traditionnelle\nÉvaluation authentique\n\n\n\n\nObjet évalué\nLe produit fini\nLe processus cognitif et les itérations\n\n\nNature de la tâche\nStandardisée, décontextualisée, principalement fondée sur la restitution\nComplexe, contextualisée, professionnalisante et ancrée dans le réel\n\n\nFormat\nÉcrit non supervisé et QCM classiques\nProjets, soutenances orales, simulations et activités collaboratives\n\n\nRôle de l’IA\nMenace extérieure et possible moyen de fraude\nOutil intégré dont l’usage est analysé, justifié et discuté\n\n\n\n\n\n\n\n\n\nCes approches ne sont pas exclusives. Elles peuvent être combinées selon le contexte, le niveau des étudiants et les objectifs pédagogiques.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#vulnérabilité-des-évaluations-et-niveau-cognitif",
+    "href": "fr/guides/evaluations/approaches.html#vulnérabilité-des-évaluations-et-niveau-cognitif",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "Vulnérabilité des évaluations et niveau cognitif",
+    "text": "Vulnérabilité des évaluations et niveau cognitif\n\nUne lecture inspirée de la taxonomie de Bloom\n\n\n\nÉvaluation et créativité\n\n\nApplication et analyse\n\n\nMémorisation et compréhension\n\n\n\n\nDifférenciateur humain\nLes projets complexes, les situations contextualisées, les laboratoires et l’exercice de l’esprit critique restent les plus difficiles à automatiser.\n\n\nZone intermédiaire\nL’IA peut traiter des études de cas standards, mais ses résultats deviennent plus fragiles lorsque le contexte est spécifique ou incomplet.\n\n\nForte vulnérabilité\nL’IA générative est particulièrement performante pour restituer, reformuler et synthétiser des connaissances accessibles.\n\n\n\n\nSource adaptée de Cathia Papi, Amélie Beaudoin, Nilce Da Silva, Serge Gérin-Lajoie et Marie-Hélène Hébert, « Repenser l’évaluation des apprentissages à l’ère de l’IA : une revue de la littérature anglophone », Distances et médiations des savoirs, no 54, 2026.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#lancrage-dans-la-singularité",
+    "href": "fr/guides/evaluations/approaches.html#lancrage-dans-la-singularité",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "L’ancrage dans la singularité",
+    "text": "L’ancrage dans la singularité\nConcevoir des sujets liés à une expérience vécue, un projet réel, un terrain, un jeu de données ou une situation propre à l’étudiant ou au groupe. Une réponse générique produite par une IA devient alors moins facilement substituable au travail demandé.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nAjouter des exemples et des déclinaisons pratiques adaptés aux différentes disciplines.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#le-processus-comme-objet-dévaluation",
+    "href": "fr/guides/evaluations/approaches.html#le-processus-comme-objet-dévaluation",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "Le processus comme objet d’évaluation",
+    "text": "Le processus comme objet d’évaluation\nÉvaluer non seulement le résultat final, mais aussi le cheminement : hypothèses, versions intermédiaires, journal de bord, choix méthodologiques, retours reçus et justification des révisions.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nDocumenter des exemples de jalons intermédiaires et de traces de processus.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#le-contrat-pédagogique-explicite",
+    "href": "fr/guides/evaluations/approaches.html#le-contrat-pédagogique-explicite",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "Le contrat pédagogique explicite",
+    "text": "Le contrat pédagogique explicite\nPréciser pour chaque évaluation si l’utilisation de l’IA est interdite, tolérée, autorisée sous conditions ou explicitement attendue.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nAjouter des formulations de consignes et des exemples de règles d’usage.\nVoir aussi Les contrats pédagogiques.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#lévaluation-orale-et-linteraction-directe",
+    "href": "fr/guides/evaluations/approaches.html#lévaluation-orale-et-linteraction-directe",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "L’évaluation orale et l’interaction directe",
+    "text": "L’évaluation orale et l’interaction directe\nMaintenir des moments d’échange direct — soutenance, questions orales, discussion ou démonstration — afin de vérifier l’appropriation des concepts et la capacité à défendre les choix réalisés.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nDécrire plusieurs formats courts compatibles avec de grands effectifs.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/approaches.html#lia-comme-compétence-à-évaluer",
+    "href": "fr/guides/evaluations/approaches.html#lia-comme-compétence-à-évaluer",
+    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "section": "L’IA comme compétence à évaluer",
+    "text": "L’IA comme compétence à évaluer\nÉvaluer la capacité à utiliser l’IA de manière raisonnée : formuler une demande, examiner une réponse, vérifier les affirmations, identifier les limites et améliorer la production obtenue.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nProposer des critères d’évaluation de l’usage critique de l’IA.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "2. Approches pour des évaluations robustes"
+    ]
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Teaching when answers are everywhere",
+    "section": "",
+    "text": "Télécom Paris\n\n\n\nPractical, evolving guides for teaching and assessing students when generative AI makes answers readily available."
+  },
+  {
+    "objectID": "en/index.html#guides",
+    "href": "en/index.html#guides",
+    "title": "Teaching when answers are everywhere",
+    "section": "Guides",
+    "text": "Guides"
+  },
+  {
+    "objectID": "en/index.html#evaluations",
+    "href": "en/index.html#evaluations",
+    "title": "Teaching when answers are everywhere",
+    "section": "Evaluations",
+    "text": "Evaluations\nDesigning robust and meaningful student assessments in the era of generative AI."
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/student-perspectives.html",
+    "href": "en/guides/evaluations/supporting/student-perspectives.html",
+    "title": "Student perspectives",
+    "section": "",
+    "text": "This page is reserved for findings from student surveys, interviews, or workshops. It may temporarily lag behind the rest of the guide.\n\n\n\n Back to top",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Student perspectives"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/prompts.html",
+    "href": "en/guides/evaluations/supporting/prompts.html",
+    "title": "Prompts",
+    "section": "",
+    "text": "Each prompt should state its purpose, required inputs, expected output, and points that the teacher must verify.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Prompts"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/prompts.html#prompt-template",
+    "href": "en/guides/evaluations/supporting/prompts.html#prompt-template",
+    "title": "Prompts",
+    "section": "Prompt template",
+    "text": "Prompt template\n\n\n\n\n\n\nNoteDesign an assessment\n\n\n\nPurpose: Describe the intended use.\nInputs: Course level, learning outcomes, assessment format, duration, and constraints.\nPrompt: Add the reviewed prompt here.\nTeacher checks: List what must be verified before use.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Prompts"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/modalities.html",
+    "href": "en/guides/evaluations/modalities.html",
+    "title": "Solutions by assessment type",
+    "section": "",
+    "text": "Organise this chapter by assessment format so teachers can quickly find relevant recommendations.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "3. Solutions by assessment type"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/modalities.html#written-examinations",
+    "href": "en/guides/evaluations/modalities.html#written-examinations",
+    "title": "Solutions by assessment type",
+    "section": "Written examinations",
+    "text": "Written examinations\nContent to be migrated.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "3. Solutions by assessment type"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/modalities.html#practical-work",
+    "href": "en/guides/evaluations/modalities.html#practical-work",
+    "title": "Solutions by assessment type",
+    "section": "Practical work",
+    "text": "Practical work\nContent to be migrated.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "3. Solutions by assessment type"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/modalities.html#projects-and-reports",
+    "href": "en/guides/evaluations/modalities.html#projects-and-reports",
+    "title": "Solutions by assessment type",
+    "section": "Projects and reports",
+    "text": "Projects and reports\nContent to be migrated.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "3. Solutions by assessment type"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/modalities.html#oral-assessment",
+    "href": "en/guides/evaluations/modalities.html#oral-assessment",
+    "title": "Solutions by assessment type",
+    "section": "Oral assessment",
+    "text": "Oral assessment\nContent to be migrated.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "3. Solutions by assessment type"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/modalities.html#programming-assignments",
+    "href": "en/guides/evaluations/modalities.html#programming-assignments",
+    "title": "Solutions by assessment type",
+    "section": "Programming assignments",
+    "text": "Programming assignments\nContent to be migrated.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "3. Solutions by assessment type"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/index.html",
+    "href": "en/guides/evaluations/index.html",
+    "title": "Evaluations",
+    "section": "",
+    "text": "Teaching when answers are everywhere\n\n\n\nHow can assessments remain meaningful when students have ready access to generative AI? This living guide collects principles, approaches, and practical options for teachers.\nStart the guide\n\nLast updated: 13 July 2026",
+    "crumbs": [
+      "Guide overview"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/index.html#guide-sections",
+    "href": "en/guides/evaluations/index.html#guide-sections",
+    "title": "Evaluations",
+    "section": "Guide sections",
+    "text": "Guide sections\n\n\n1\n\nIntroduction and context\nWhy this guide is needed and what is changing in student assessment.\n\n\n\n2\n\nApproaches for robust assessments\nComplementary strategies based on process, singularity, dialogue, and AI literacy.\n\n\n\n3\n\nSolutions by assessment type\nPractical recommendations for exams, practical work, projects, reports, oral work, and code.\n\n\n\n4\n\nAI detection\nWhy automatic detection is unreliable and what to do instead.\n\n\n\n5\n\nPedagogical contracts and disclosure\nSet clear expectations and document acceptable uses of AI.",
+    "crumbs": [
+      "Guide overview"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/index.html#supporting-pages",
+    "href": "en/guides/evaluations/index.html#supporting-pages",
+    "title": "Evaluations",
+    "section": "Supporting pages",
+    "text": "Supporting pages\n\n\nResources\nInternal and external references, policies, and further reading.\n\n\nPrompts\nReusable prompts to support assessment design.\n\n\nStudent perspectives\nStudent uses, experiences, and perceptions of AI.\n\n\nTeam\nContributors and contact information.",
+    "crumbs": [
+      "Guide overview"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/ai-detection.html",
+    "href": "en/guides/evaluations/ai-detection.html",
+    "title": "AI detection",
+    "section": "",
+    "text": "This chapter should explain why automatic detection cannot provide sufficiently reliable proof of AI use and why stylistic clues are not dependable evidence.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "4. AI detection"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/ai-detection.html#better-alternatives",
+    "href": "en/guides/evaluations/ai-detection.html#better-alternatives",
+    "title": "AI detection",
+    "section": "Better alternatives",
+    "text": "Better alternatives\nDocument the assessment process, request intermediate work where useful, discuss the work with the student, and evaluate whether the submitted work demonstrates the intended learning outcomes.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "4. AI detection"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/approaches.html",
+    "href": "en/guides/evaluations/approaches.html",
+    "title": "Approaches for robust assessments",
+    "section": "",
+    "text": "This chapter is intended for the guide’s general approaches: making work more specific, observing the process, using oral interaction, clarifying the pedagogical contract, and treating AI use as a competence where relevant.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "2. Approaches for robust assessments"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/approaches.html#combine-approaches",
+    "href": "en/guides/evaluations/approaches.html#combine-approaches",
+    "title": "Approaches for robust assessments",
+    "section": "Combine approaches",
+    "text": "Combine approaches\nNo single method is appropriate for every course. The strongest designs generally combine several modest measures rather than relying on one supposedly definitive safeguard.\n\n\n\n\n\n\nTipPractical rule\n\n\n\nStart from the learning outcome, then choose the least burdensome combination of measures that provides credible evidence of learning.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "2. Approaches for robust assessments"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/introduction.html",
+    "href": "en/guides/evaluations/introduction.html",
+    "title": "Introduction and context",
+    "section": "",
+    "text": "This chapter introduces the purpose and scope of the guide. Replace this scaffold with the existing guide content.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "1. Introduction and context"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/introduction.html#why-revisit-assessment",
+    "href": "en/guides/evaluations/introduction.html#why-revisit-assessment",
+    "title": "Introduction and context",
+    "section": "Why revisit assessment?",
+    "text": "Why revisit assessment?\nGenerative AI changes which tasks can demonstrate student learning reliably. The objective is not to make every assessment resistant to every tool, but to align the assessment with the learning outcomes and make expectations explicit.\n\n\n\n\n\n\nNoteEditorial principle\n\n\n\nPrefer changes that improve the pedagogical value of an assessment even when no AI tool is used.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "1. Introduction and context"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/introduction.html#a-place-for-key-figures",
+    "href": "en/guides/evaluations/introduction.html#a-place-for-key-figures",
+    "title": "Introduction and context",
+    "section": "A place for key figures",
+    "text": "A place for key figures",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "1. Introduction and context"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/introduction.html#xx",
+    "href": "en/guides/evaluations/introduction.html#xx",
+    "title": "Introduction and context",
+    "section": "XX%",
+    "text": "XX%\nReplace with a sourced result from the teacher questionnaire.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "1. Introduction and context"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/introduction.html#x-in-y",
+    "href": "en/guides/evaluations/introduction.html#x-in-y",
+    "title": "Introduction and context",
+    "section": "X in Y",
+    "text": "X in Y\nReplace with another meaningful, sourced figure.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "1. Introduction and context"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/introduction.html#a-place-for-a-diagram",
+    "href": "en/guides/evaluations/introduction.html#a-place-for-a-diagram",
+    "title": "Introduction and context",
+    "section": "A place for a diagram",
+    "text": "A place for a diagram\n\n\n\n\n\nflowchart LR\n  A[Learning outcomes] --&gt; B[Assessment design]\n  B --&gt; C[Instructions on AI use]\n  C --&gt; D[Student work]\n  D --&gt; E[Feedback and revision]",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "1. Introduction and context"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/pedagogical-contracts.html",
+    "href": "en/guides/evaluations/pedagogical-contracts.html",
+    "title": "Pedagogical contracts and disclosure",
+    "section": "",
+    "text": "This chapter should provide principles and examples for clearly communicating what uses of AI are allowed, required, discouraged, or prohibited in a given assessment.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "5. Pedagogical contracts and disclosure"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/pedagogical-contracts.html#what-a-contract-should-state",
+    "href": "en/guides/evaluations/pedagogical-contracts.html#what-a-contract-should-state",
+    "title": "Pedagogical contracts and disclosure",
+    "section": "What a contract should state",
+    "text": "What a contract should state\n\nthe learning objectives;\nauthorised and prohibited uses;\ndisclosure and citation expectations;\nresponsibility for the submitted work;\nconsequences of non-compliance.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Evaluations",
+      "5. Pedagogical contracts and disclosure"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/resources.html",
+    "href": "en/guides/evaluations/supporting/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This supporting page can collect institutional policies, reports, questionnaires, research literature, and practical resources.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/resources.html#internal-resources",
+    "href": "en/guides/evaluations/supporting/resources.html#internal-resources",
+    "title": "Resources",
+    "section": "Internal resources",
+    "text": "Internal resources\n\nAdd institutional documents here.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/resources.html#external-resources",
+    "href": "en/guides/evaluations/supporting/resources.html#external-resources",
+    "title": "Resources",
+    "section": "External resources",
+    "text": "External resources\n\nAdd annotated references here.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "en/guides/evaluations/supporting/team.html",
+    "href": "en/guides/evaluations/supporting/team.html",
+    "title": "Team",
+    "section": "",
+    "text": "List the working group, contributors, editorial responsibilities, and contact information here.\n\n\n\n Back to top",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Supporting pages",
+      "Team"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/ai-detection.html",
+    "href": "fr/guides/evaluations/ai-detection.html",
+    "title": "Détection de l’IA",
+    "section": "",
+    "text": "Il n’est pas possible de détecter de manière fiable les textes générés par IA. L’utilisation de tels détecteurs est à éviter.\nNotons tout d’abord que l’usage de tirets cadratins «—» et semi-cadratins «–», ou de figures de style comme les structures ternaires, ne témoigne pas d’un usage de l’IA. Si des modèles de langage l’utilisent, c’est uniquement parce que les textes — écrits par des humains ! — sur lesquels ils sont entraînés en utilisent aussi. De nombreuses personnes en font usage naturellement. Crier à l’usage d’IA quand un texte contient des figures de style ou des tirets cadratins peut à l’inverse pousser des étudiants à appauvrir leur style, voire à commettre des fautes volontaires, pour ne pas être accusés.\nLes détecteurs automatiques ne sont pas bien plus fiables. Il est tout d’abord facile d’échapper à leur détection, par exemple en paraphrasant le texte.\nPlus problématique, les détecteurs de textes générés présentent de nombreux biais :\n\nquand l’étudiant n’écrit pas dans sa langue maternelle (voir ici et là),\nminorités linguistiques (dialectes), mais aussi selon la tranche d’âge et le niveau de formalisme,\nauprès d’un auteur neurodivergeant,\ncontre les textes stylistiquement contraints (par exemple un rapport technique ou légal dont le style est limité pour se concentrer sur la technicité),\nbiais de discipline ou de style: les détecteurs sont encore moins fiables sur des textes dont le type (abstract, rapport, essai d’étudiant, poésie, etc) et la discipline diffèrent des données d’entraînement,\nles détecteurs étant principalement entraînés sur des textes en anglais, leur fiabilité empire quand ils sont utilisés sur d’autres langues, par exemple en français.\n\nEn résumé, les outils de détection d’IA dans les textes n’offrent qu’une analyse statistique, pas une preuve de la génération. Comme toute analyse statistique, ils sont soumis à des biais.\nEnfin, notons qu’un faux positif peut avoir de graves conséquences pour l’étudiant concerné.\n\n\n\n Retour au sommet",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "4. Détection de l’IA"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/index.html",
+    "href": "fr/guides/evaluations/index.html",
+    "title": "Évaluations",
+    "section": "",
+    "text": "Enseigner à l’ère de l’IA\n\n\n\nComment préserver le sens des évaluations lorsque les étudiants ont facilement accès à l’IA générative ? Ce guide vivant rassemble des principes, des approches et des solutions pratiques à destination des enseignants.\nCommencer le guide\n\nDernière mise à jour : 13 juillet 2026",
+    "crumbs": [
+      "Présentation du guide"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/index.html#sections-du-guide",
+    "href": "fr/guides/evaluations/index.html#sections-du-guide",
+    "title": "Évaluations",
+    "section": "Sections du guide",
+    "text": "Sections du guide\n\n\n1\n\nIntroduction et contexte\nPourquoi ce guide est nécessaire et ce qui change dans l’évaluation des étudiants.\n\n\n\n2\n\nApproches pour des évaluations robustes\nDes stratégies complémentaires fondées sur le processus, la singularité, le contrat pédagogique, le dialogue, et la maîtrise de l’IA.\n\n\n\n3\n\nSolutions par modalité d’évaluation\nDes recommandations pour les examens, TP, projets, rapports, oraux et travaux de programmation.\n\n\n\n4\n\nDétection de l’IA\nPourquoi la détection automatique n’est pas fiable.\n\n\n\n5\n\nContrats pédagogiques et déclaration\nClarifier les attentes et documenter les usages autorisés de l’IA.",
+    "crumbs": [
+      "Présentation du guide"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/index.html#pages-complémentaires",
+    "href": "fr/guides/evaluations/index.html#pages-complémentaires",
+    "title": "Évaluations",
+    "section": "Pages complémentaires",
+    "text": "Pages complémentaires\n\n\nRessources\nRéférences internes et externes, textes de cadrage et pistes de lecture.\n\n\nPrompts\nDes prompts réutilisables pour accompagner la conception des évaluations.\n\n\nPoint de vue des étudiants\nUsages, expériences et perceptions de l’IA par les étudiants.\n\n\nÉquipe\nContributeurs et informations de contact.",
+    "crumbs": [
+      "Présentation du guide"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/modalities.html",
+    "href": "fr/guides/evaluations/modalities.html",
+    "title": "Solutions d’évaluation robustes à l’IA par modalité pédagogique",
+    "section": "",
+    "text": "Pour chaque modalité, cette section présente des adaptations possibles afin de concevoir des évaluations moins substituables par l’IA générative.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "3. Solutions par modalité d’évaluation"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/modalities.html#retour-denseignant",
+    "href": "fr/guides/evaluations/modalities.html#retour-denseignant",
+    "title": "Solutions d’évaluation robustes à l’IA par modalité pédagogique",
+    "section": "Retour d’enseignant",
+    "text": "Retour d’enseignant\n\n\nPour mon cours de projet en master, j’ai remplacé le rapport écrit final par une soutenance orale appuyée sur un carnet de bord tenu tout au long du semestre. Au départ, j’avais peur que cela alourdisse ma charge de correction.\nEn réalité, le carnet de bord m’a permis de suivre la progression réelle de chaque étudiant et de repérer immédiatement les groupes qui s’appuyaient trop sur l’IA sans recul critique. La soutenance orale a fait le reste : impossible de bluffer quand on doit justifier ses choix en direct.\nLe seul vrai coût, c’est le temps de préparation la première année. Une fois la grille d’évaluation du processus posée, ça devient un format que je réutilise d’une promotion à l’autre. »\n\n— M. Dupont, enseignant-chercheur, Télécom Paris",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Évaluations",
+      "3. Solutions par modalité d’évaluation"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/prompts.html",
+    "href": "fr/guides/evaluations/supporting/prompts.html",
+    "title": "Prompts",
+    "section": "",
+    "text": "Chaque prompt devrait préciser son objectif, les informations nécessaires, le résultat attendu et les éléments que l’enseignant doit vérifier.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Prompts"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/prompts.html#modèle-de-prompt",
+    "href": "fr/guides/evaluations/supporting/prompts.html#modèle-de-prompt",
+    "title": "Prompts",
+    "section": "Modèle de prompt",
+    "text": "Modèle de prompt\n\n\n\n\n\n\nNoteConcevoir une évaluation\n\n\n\nObjectif : Décrire l’usage prévu.\nInformations : Niveau du cours, acquis d’apprentissage, modalité, durée et contraintes.\nPrompt : Ajouter ici le prompt relu et validé.\nVérifications : Lister les éléments à contrôler avant utilisation.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Prompts"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/student-perspectives.html",
+    "href": "fr/guides/evaluations/supporting/student-perspectives.html",
+    "title": "Point de vue des étudiants",
+    "section": "",
+    "text": "Cette page est réservée aux résultats d’enquêtes, d’entretiens ou d’ateliers menés auprès des étudiants. Elle peut temporairement être moins avancée que le reste du guide.\n\n\n\n Retour au sommet",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Point de vue des étudiants"
+    ]
+  },
+  {
+    "objectID": "fr/index.html",
+    "href": "fr/index.html",
+    "title": "Enseigner à l’ère de l’IA",
+    "section": "",
+    "text": "Télécom Paris\n\n\n\nDes guides pratiques et évolutifs pour enseigner et évaluer lorsque l’IA générative rend les réponses facilement accessibles."
+  },
+  {
+    "objectID": "fr/index.html#guides",
+    "href": "fr/index.html#guides",
+    "title": "Enseigner à l’ère de l’IA",
+    "section": "Guides",
+    "text": "Guides"
+  },
+  {
+    "objectID": "fr/index.html#évaluations",
+    "href": "fr/index.html#évaluations",
+    "title": "Enseigner à l’ère de l’IA",
+    "section": "Évaluations",
+    "text": "Évaluations\nConcevoir des évaluations robustes et porteuses de sens à l’ère de l’IA générative."
+  }
+]

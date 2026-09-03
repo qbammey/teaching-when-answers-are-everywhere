@@ -10,5 +10,5 @@ Cette page complémentaire peut rassembler les textes institutionnels, rapports,
 - Ajouter ici les documents institutionnels.
 
 ## Ressources externes
-
-- Ajouter ici des références commentées.
+- [Generative AI @ Harvard](https://www.harvard.edu/ai/) : Portail central de Harvard sur l'IA générative, couvrant l'enseignement, l'apprentissage, la recherche et le travail. Il propose plusieurs pages de ressources ainsi qu'une série continue d'articles sur l'IA dans l'enseignement supérieur et au-delà.
+- [Faculty Voices](https://www.harvard.edu/ai/category/faculty-voices/) : Une collection de témoignages vidéo à la première personne de professeurs de Harvard sur la façon dont ils utilisent concrètement l'IA générative dans leurs propres classes. Leurs témoignages abordent des thèmes tels que « Évaluation », « Planification et préparation des cours » et « Utilisation en classe ».

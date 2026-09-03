@@ -11,4 +11,5 @@ This supporting page can collect institutional policies, reports, questionnaires
 
 ## External resources
 
-- Add annotated references here.
+- [Generative AI @ Harvard](https://www.harvard.edu/ai/): Harvard's central hub on generative AI, covering teaching, learning, research, and work. It provides several resource pages plus a running series of news pieces on AI in higher ed and beyond.
+- [Faculty Voices](https://www.harvard.edu/ai/category/faculty-voices/): A collection of first-person video testimonials from Harvard faculty on how they're actually using generative AI in their own classrooms. Their testimonials include themes such as "Assessment", "Course Planning and Preparation", and "In-class Use"

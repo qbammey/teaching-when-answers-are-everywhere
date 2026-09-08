@@ -4,3 +4,9 @@ description: "Contributeurs au guide Évaluations."
 ---
 
 Présenter ici le groupe de travail, les contributeurs, les responsabilités éditoriales et les informations de contact.
+
+## Contact
+
+- **Équipe IA/Pédagogie** : [equipe-ia@telecom-paris.fr](mailto:equipe-ia@telecom-paris.fr)
+- **Questions sur le groupe** : Gilles Vignon — [gilles.vignon@telecom-paris.fr](mailto:gilles.vignon@telecom-paris.fr)
+- **Questions sur le site web** : Quentin Bammey — [quentin.bammey@telecom-paris.fr](mailto:quentin.bammey@telecom-paris.fr)

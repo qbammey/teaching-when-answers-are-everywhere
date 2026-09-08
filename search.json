@@ -18,7 +18,19 @@
     "href": "fr/guides/evaluations/supporting/team.html",
     "title": "Équipe",
     "section": "",
-    "text": "Présenter ici le groupe de travail, les contributeurs, les responsabilités éditoriales et les informations de contact.\n\n\n\n Retour au sommet",
+    "text": "Présenter ici le groupe de travail, les contributeurs, les responsabilités éditoriales et les informations de contact.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Équipe"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/team.html#contact",
+    "href": "fr/guides/evaluations/supporting/team.html#contact",
+    "title": "Équipe",
+    "section": "Contact",
+    "text": "Contact\n\nÉquipe IA/Pédagogie : equipe-ia@telecom-paris.fr\nQuestions sur le groupe : Gilles Vignon — gilles.vignon@telecom-paris.fr\nQuestions sur le site web : Quentin Bammey — quentin.bammey@telecom-paris.fr",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Pages complémentaires",

@@ -74,6 +74,30 @@
     ]
   },
   {
+    "objectID": "fr/guides/evaluations/supporting/resources.html#cadres-de-référence-pour-lévaluation-à-lère-de-lia",
+    "href": "fr/guides/evaluations/supporting/resources.html#cadres-de-référence-pour-lévaluation-à-lère-de-lia",
+    "title": "Ressources",
+    "section": "Cadres de référence pour l’évaluation à l’ère de l’IA",
+    "text": "Cadres de référence pour l’évaluation à l’ère de l’IA\n\n\n\n\n\n\nNoteDes références largement reprises\n\n\n\nLes ressources ci-dessous sont parmi les plus citées par les établissements d’enseignement supérieur pour repenser l’évaluation face à l’IA générative. Il s’agit de cadres d’aide à la décision, et non de textes réglementaires.\n\n\n\nPRAX-IA (Université de Lausanne) : Modèle francophone développé à l’UNIL pour aider les enseignants à situer leurs pratiques d’évaluation dans un contexte marqué par l’IA générative. Il propose d’analyser la vulnérabilité des évaluations, de définir des règles d’usage de l’IA et de repenser la cohérence d’ensemble du cours (objectifs, activités, évaluations).\nAI Assessment Scale (AIAS) : Échelle en cinq niveaux, conçue par Perkins, Furze, Roe et MacVaugh, qui permet de préciser pour chaque évaluation le degré d’usage de l’IA autorisé, de « aucune IA » à un usage exploratoire. Traduite dans une trentaine de langues et utilisée par plusieurs centaines d’établissements, elle offre un vocabulaire commun aux enseignants et aux étudiants. L’article de référence est en accès libre.\nAssessment reform for the age of artificial intelligence (TEQSA) : Publication de l’agence australienne d’assurance qualité de l’enseignement supérieur, qui formule des principes directeurs pour la réforme de l’évaluation, notamment le recours à des approches d’évaluation multiples et inclusives pour porter un jugement fiable sur les apprentissages. Elle est complétée par un recueil d’exemples de mise en œuvre : Enacting assessment reform in a time of artificial intelligence.\nGuidance for generative AI in education and research (UNESCO) : Premières orientations mondiales de l’UNESCO sur l’IA générative dans l’éducation et la recherche. Le document propose une approche centrée sur l’humain, des recommandations aux institutions et des pistes pour intégrer ces outils dans la conception pédagogique et l’évaluation.\nIA Sup : ressources pour évaluer (L’Université Numérique) : Sélection de ressources proposée par L’Université Numérique dans le cadre du programme IA Sup, consacrée à l’impact de l’IA sur les pratiques d’évaluation dans l’enseignement supérieur français (webinaires, guides, retours d’expérience).",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Ressources"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/resources.html#cadre-réglementaire",
+    "href": "fr/guides/evaluations/supporting/resources.html#cadre-réglementaire",
+    "title": "Ressources",
+    "section": "Cadre réglementaire",
+    "text": "Cadre réglementaire\n\n\n\n\n\n\nImportantLe Règlement européen sur l’IA (AI Act)\n\n\n\nLe Règlement (UE) 2024/1689 sur l’intelligence artificielle est le premier cadre juridique contraignant sur l’IA. Il s’applique directement dans tous les États membres. Il ne porte pas sur la conception d’évaluations robustes à l’IA, mais il encadre l’usage de systèmes d’IA pour évaluer les apprenants, ce qui concerne directement les établissements de formation.\n\n\n\nPratiques interdites (depuis le 2 février 2025) : l’utilisation de systèmes de reconnaissance des émotions dans les établissements d’enseignement est interdite, sauf pour des raisons médicales ou de sécurité.\nObligation de maîtrise de l’IA (depuis le 2 février 2025) : les organisations qui déploient des systèmes d’IA doivent s’assurer que leur personnel dispose d’un niveau suffisant de compétences en IA (article 4).\nSystèmes d’IA « à haut risque » dans l’éducation (annexe III, point 3) : sont classés à haut risque les systèmes d’IA utilisés pour :\n\ndéterminer l’accès ou l’admission dans un établissement de formation ;\névaluer les acquis d’apprentissage, y compris lorsque ces résultats orientent le parcours de l’apprenant ;\ndéterminer le niveau de formation auquel une personne pourra accéder ;\nsurveiller et détecter les comportements interdits pendant les examens (télésurveillance, proctoring automatisé).\n\nCalendrier : à la suite de l’accord dit « Omnibus numérique », entré en vigueur le 27 juillet 2026, les obligations liées aux systèmes à haut risque de l’annexe III s’appliquent à partir du 2 décembre 2027 (au lieu du 2 août 2026 initialement prévu). Les obligations de transparence de l’article 50 restent applicables depuis août 2026.\n\nPour aller plus loin : la page Education and vocational training du service d’assistance de la Commission européenne sur l’AI Act détaille les implications pour le secteur éducatif.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Ressources"
+    ]
+  },
+  {
     "objectID": "fr/guides/evaluations/supporting/contribute.html",
     "href": "fr/guides/evaluations/supporting/contribute.html",
     "title": "Contribuer au guide",

@@ -23,8 +23,4 @@ Résultats issu du [questionnaire adressé aux enseignants-chercheurs](/assets/q
 
 L’IA générative modifie les tâches qui permettent d’observer de manière fiable les apprentissages des étudiants. L’objectif n’est pas de rendre chaque évaluation invulnérable à tout outil, mais de l’aligner sur les acquis visés et de rendre les attentes explicites.
 
-::: {.callout-note title="Principe éditorial"}
-Privilégier les évolutions qui améliorent la valeur pédagogique de l’évaluation, y compris lorsqu’aucun outil d’IA n’est utilisé.
-:::
-
 ::::

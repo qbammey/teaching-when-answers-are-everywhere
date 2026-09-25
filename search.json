@@ -588,9 +588,9 @@
   {
     "objectID": "fr/guides/evaluations/approaches.html",
     "href": "fr/guides/evaluations/approaches.html",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
+    "title": "Approches pour des évaluations robustes",
     "section": "",
-    "text": "Évaluation traditionnelle\nÉvaluation authentique\n\n\n\n\nObjet évalué\nLe produit fini\nLe processus cognitif et les itérations\n\n\nNature de la tâche\nStandardisée, décontextualisée, principalement fondée sur la restitution\nComplexe, contextualisée, professionnalisante et ancrée dans le réel\n\n\nFormat\nÉcrit non supervisé et QCM classiques\nProjets, soutenances orales, simulations et activités collaboratives\n\n\nRôle de l’IA\nMenace extérieure et possible moyen de fraude\nOutil intégré dont l’usage est analysé, justifié et discuté\n\n\n\n\n\n\n\n\n\nCes approches ne sont pas exclusives. Elles peuvent être combinées selon le contexte, le niveau des étudiants et les objectifs pédagogiques.",
+    "text": "NoteÀ propos de cette page\n\n\n\nCette page présente, de façon neutre, les formats d’évaluation couramment cités comme robustes à l’IA générative, c’est-à-dire des formats où l’usage non déclaré d’un outil d’IA est difficile ou peu utile pour réussir l’épreuve.\nAucun format n’est infaillible, et aucun n’est adapté à toutes les situations. Le choix dépend des objectifs d’apprentissage, de la taille du groupe, du temps disponible et du contexte de la formation. Les formats peuvent être combinés.",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Évaluations",
@@ -598,11 +598,11 @@
     ]
   },
   {
-    "objectID": "fr/guides/evaluations/approaches.html#le-changement-de-paradigme-vers-lévaluation-authentique",
-    "href": "fr/guides/evaluations/approaches.html#le-changement-de-paradigme-vers-lévaluation-authentique",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "",
-    "text": "Évaluation traditionnelle\nÉvaluation authentique\n\n\n\n\nObjet évalué\nLe produit fini\nLe processus cognitif et les itérations\n\n\nNature de la tâche\nStandardisée, décontextualisée, principalement fondée sur la restitution\nComplexe, contextualisée, professionnalisante et ancrée dans le réel\n\n\nFormat\nÉcrit non supervisé et QCM classiques\nProjets, soutenances orales, simulations et activités collaboratives\n\n\nRôle de l’IA\nMenace extérieure et possible moyen de fraude\nOutil intégré dont l’usage est analysé, justifié et discuté\n\n\n\n\n\n\n\n\n\nCes approches ne sont pas exclusives. Elles peuvent être combinées selon le contexte, le niveau des étudiants et les objectifs pédagogiques.",
+    "objectID": "fr/guides/evaluations/approaches.html#vue-densemble",
+    "href": "fr/guides/evaluations/approaches.html#vue-densemble",
+    "title": "Approches pour des évaluations robustes",
+    "section": "Vue d’ensemble",
+    "text": "Vue d’ensemble\n\n\n\n\n\n\n\n\n\nFormat\nMoment de l’évaluation\nTaille de groupe adaptée\nCharge pour l’enseignant\n\n\n\n\nExamen oral\nEn direct\nPetite à moyenne\nÉlevée\n\n\nÉpreuve écrite surveillée\nEn direct\nToutes tailles\nModérée\n\n\nÉvaluation du processus\nAu fil du travail\nPetite à moyenne\nÉlevée\n\n\nPortfolio\nAu fil du semestre\nPetite à moyenne\nÉlevée\n\n\nTâche authentique et contextualisée\nRendu différé\nToutes tailles\nModérée\n\n\nTravaux pratiques et démonstration en direct\nEn direct\nPetite à moyenne\nModérée à élevée\n\n\nEntretien de vérification après un rendu\nRendu différé + échange court\nToutes tailles (par échantillonnage)\nModérée\n\n\nAnalyse critique de productions d’IA\nRendu différé ou en direct\nToutes tailles\nModérée\n\n\nÉvaluation par les pairs\nAu fil du travail\nMoyenne à grande\nFaible à modérée\n\n\nSimulation, jeu de rôle, mise en situation\nEn direct\nPetite à moyenne\nÉlevée",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Évaluations",
@@ -610,11 +610,11 @@
     ]
   },
   {
-    "objectID": "fr/guides/evaluations/approaches.html#vulnérabilité-des-évaluations-et-niveau-cognitif",
-    "href": "fr/guides/evaluations/approaches.html#vulnérabilité-des-évaluations-et-niveau-cognitif",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "Vulnérabilité des évaluations et niveau cognitif",
-    "text": "Vulnérabilité des évaluations et niveau cognitif\n\nUne lecture inspirée de la taxonomie de Bloom\n\n\n\nÉvaluation et créativité\n\n\nApplication et analyse\n\n\nMémorisation et compréhension\n\n\n\n\nDifférenciateur humain\nLes projets complexes, les situations contextualisées, les laboratoires et l’exercice de l’esprit critique restent les plus difficiles à automatiser.\n\n\nZone intermédiaire\nL’IA peut traiter des études de cas standards, mais ses résultats deviennent plus fragiles lorsque le contexte est spécifique ou incomplet.\n\n\nForte vulnérabilité\nL’IA générative est particulièrement performante pour restituer, reformuler et synthétiser des connaissances accessibles.\n\n\n\n\nSource adaptée de Cathia Papi, Amélie Beaudoin, Nilce Da Silva, Serge Gérin-Lajoie et Marie-Hélène Hébert, « Repenser l’évaluation des apprentissages à l’ère de l’IA : une revue de la littérature anglophone », Distances et médiations des savoirs, no 54, 2026.",
+    "objectID": "fr/guides/evaluations/approaches.html#les-formats-en-détail",
+    "href": "fr/guides/evaluations/approaches.html#les-formats-en-détail",
+    "title": "Approches pour des évaluations robustes",
+    "section": "Les formats en détail",
+    "text": "Les formats en détail\n\nExamen oral\nPrincipe. L’étudiant répond oralement à des questions, présente un travail ou défend un raisonnement devant un ou plusieurs évaluateurs.\nMise en œuvre. Questions tirées au sort, soutenance de projet, exposé suivi d’un échange, oral court en fin de séance. Une grille d’évaluation partagée à l’avance renforce l’équité entre candidats.\nAvantages.\n\nPermet de vérifier la compréhension réelle et la capacité à mobiliser des connaissances sans support.\nLes questions de relance permettent d’explorer le raisonnement en profondeur.\nDéveloppe des compétences de communication utiles en contexte professionnel.\n\nPoints d’attention. Temps important pour les grands effectifs ; risque de biais d’évaluation ; stress accru pour certains étudiants ; nécessite des aménagements pour les étudiants en situation de handicap.\n\n\nÉpreuve écrite surveillée\nPrincipe. Épreuve réalisée en temps limité, en présentiel, sans accès aux outils numériques ou avec un accès contrôlé.\nMise en œuvre. Examen sur table, QCM ou questions ouvertes sur poste verrouillé, étude de cas en temps limité. Les documents autorisés peuvent être définis précisément (aucun, fiche personnelle, documents de cours).\nAvantages.\n\nCadre bien connu des étudiants et des institutions.\nAdapté aux grands effectifs.\nConditions identiques pour tous les candidats.\n\nPoints d’attention. Évalue surtout des performances en temps contraint ; peu adapté aux compétences de production longue ou de recherche ; logistique de surveillance à prévoir.\n\n\nÉvaluation du processus\nPrincipe. On évalue la démarche suivie, et pas seulement le produit final : étapes intermédiaires, brouillons, choix effectués, difficultés rencontrées.\nMise en œuvre. Rendus intermédiaires notés ou commentés, journal de bord, historique des versions (par exemple l’historique d’un document partagé ou d’un dépôt Git), note d’intention puis bilan réflexif.\nAvantages.\n\nRend visible la progression de l’apprenant.\nPermet des retours formatifs réguliers.\nUne production entièrement générée en une fois devient facilement repérable.\n\nPoints d’attention. Suivi exigeant pour l’enseignant ; nécessite de définir clairement ce qui est attendu à chaque étape ; les traces intermédiaires peuvent elles aussi être produites avec une IA si elles ne sont pas accompagnées d’échanges.\n\n\nPortfolio\nPrincipe. Recueil organisé de productions réalisées sur une période longue, accompagné d’une analyse réflexive de l’étudiant sur ses apprentissages.\nMise en œuvre. Sélection commentée de travaux, justification des choix, mise en lien avec les compétences visées, présentation orale possible en fin de parcours.\nAvantages.\n\nValorise la progression dans la durée.\nEncourage la réflexivité et l’autonomie.\nAdapté à l’approche par compétences et à la formation continue.\n\nPoints d’attention. Correction longue ; critères d’évaluation à expliciter précisément ; la partie réflexive gagne à être vérifiée par un échange oral.\n\n\nTâche authentique et contextualisée\nPrincipe. Le travail demandé s’appuie sur un contexte spécifique : données locales, cas d’entreprise réel, expérience personnelle ou professionnelle de l’apprenant, contenu vu uniquement en séance.\nMise en œuvre. Étude de cas tirée de l’organisation de l’apprenant, analyse de données fournies en cours, projet répondant à une commande réelle, lien obligatoire avec des éléments discutés en classe.\nAvantages.\n\nDonne du sens à l’évaluation et la rapproche des situations professionnelles.\nLes réponses génériques produites par une IA sont peu pertinentes.\nFavorise le transfert des connaissances.\n\nPoints d’attention. Conception plus longue ; les outils d’IA peuvent traiter du contexte s’il leur est fourni, ce format réduit donc le risque sans l’éliminer ; comparabilité entre étudiants parfois plus difficile.\n\n\nTravaux pratiques et démonstration en direct\nPrincipe. L’étudiant réalise une manipulation, un développement ou une résolution de problème devant l’évaluateur.\nMise en œuvre. TP noté en salle, programmation en direct (live coding), démonstration d’un prototype avec modification demandée sur le moment, manipulation d’un équipement.\nAvantages.\n\nÉvalue directement le savoir-faire.\nPermet d’observer la méthode et la gestion des erreurs.\nParticulièrement adapté aux formations techniques et scientifiques.\n\nPoints d’attention. Mobilise du matériel et des créneaux ; nombre d’étudiants limité par session ; conditions à standardiser pour garantir l’équité.\n\n\nEntretien de vérification après un rendu\nPrincipe. Un travail écrit réalisé librement est complété par un court échange oral (5 à 15 minutes) au cours duquel l’étudiant explique et justifie ce qu’il a produit.\nMise en œuvre. Entretien systématique ou sur échantillon aléatoire, questions sur les choix effectués, demande de modifier ou prolonger une partie du travail. La note peut combiner le rendu et l’entretien.\nAvantages.\n\nPréserve l’intérêt des travaux longs et approfondis.\nVérifie l’appropriation du contenu rendu.\nMoins coûteux qu’un oral complet.\n\nPoints d’attention. Nécessite de planifier des créneaux ; le mode de prise en compte de l’entretien dans la note doit être annoncé à l’avance.\n\n\nAnalyse critique de productions d’IA\nPrincipe. L’usage de l’IA est intégré à l’évaluation : l’étudiant analyse, vérifie, corrige ou améliore un contenu produit par un outil d’IA.\nMise en œuvre. Repérer les erreurs d’une réponse générée, comparer plusieurs réponses, vérifier les sources citées, documenter et justifier son usage de l’IA dans un travail (requêtes utilisées, résultats retenus ou écartés).\nAvantages.\n\nDéveloppe l’esprit critique et la maîtrise des outils.\nAligne l’évaluation sur les usages professionnels réels.\nRend l’usage de l’IA explicite et transparent.\n\nPoints d’attention. Exige de l’enseignant une bonne connaissance des outils ; les consignes doivent préciser ce qui est évalué (l’analyse, pas le texte généré) ; équité d’accès aux outils à garantir.\n\n\nÉvaluation par les pairs\nPrincipe. Les étudiants évaluent les travaux de leurs camarades à l’aide d’une grille, souvent en complément de l’évaluation de l’enseignant.\nMise en œuvre. Relecture croisée anonyme, commentaires argumentés, co-évaluation au sein d’un groupe de projet, notation de la qualité des retours donnés.\nAvantages.\n\nDéveloppe la capacité de jugement et d’argumentation.\nMultiplie les retours pour chaque étudiant.\nAdapté aux grands effectifs.\n\nPoints d’attention. Formation préalable des étudiants à l’usage de la grille ; fiabilité variable des notes ; les commentaires eux-mêmes peuvent être générés par une IA s’ils ne sont pas encadrés.\n\n\nSimulation, jeu de rôle, mise en situation\nPrincipe. L’étudiant agit dans un scénario proche d’une situation professionnelle : négociation, gestion de crise, entretien client, réunion de projet.\nMise en œuvre. Scénario préparé avec des rôles définis, observation selon une grille, débriefing après la mise en situation, éventuellement enregistrement vidéo pour l’auto-évaluation.\nAvantages.\n\nÉvalue des compétences comportementales et relationnelles.\nTrès proche des attentes du monde professionnel.\nForte implication des participants.\n\nPoints d’attention. Préparation importante ; objectivité de l’observation à encadrer ; format moins adapté aux savoirs théoriques.",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Évaluations",
@@ -622,59 +622,11 @@
     ]
   },
   {
-    "objectID": "fr/guides/evaluations/approaches.html#lancrage-dans-la-singularité",
-    "href": "fr/guides/evaluations/approaches.html#lancrage-dans-la-singularité",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "L’ancrage dans la singularité",
-    "text": "L’ancrage dans la singularité\nConcevoir des sujets liés à une expérience vécue, un projet réel, un terrain, un jeu de données ou une situation propre à l’étudiant ou au groupe. Une réponse générique produite par une IA devient alors moins facilement substituable au travail demandé.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nAjouter des exemples et des déclinaisons pratiques adaptés aux différentes disciplines.",
-    "crumbs": [
-      "<span id=\"nav-language-label\">Français</span>",
-      "Évaluations",
-      "2. Approches pour des évaluations robustes"
-    ]
-  },
-  {
-    "objectID": "fr/guides/evaluations/approaches.html#le-processus-comme-objet-dévaluation",
-    "href": "fr/guides/evaluations/approaches.html#le-processus-comme-objet-dévaluation",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "Le processus comme objet d’évaluation",
-    "text": "Le processus comme objet d’évaluation\nÉvaluer non seulement le résultat final, mais aussi le cheminement : hypothèses, versions intermédiaires, journal de bord, choix méthodologiques, retours reçus et justification des révisions.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nDocumenter des exemples de jalons intermédiaires et de traces de processus.",
-    "crumbs": [
-      "<span id=\"nav-language-label\">Français</span>",
-      "Évaluations",
-      "2. Approches pour des évaluations robustes"
-    ]
-  },
-  {
-    "objectID": "fr/guides/evaluations/approaches.html#le-contrat-pédagogique-explicite",
-    "href": "fr/guides/evaluations/approaches.html#le-contrat-pédagogique-explicite",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "Le contrat pédagogique explicite",
-    "text": "Le contrat pédagogique explicite\nPréciser pour chaque évaluation si l’utilisation de l’IA est interdite, tolérée, autorisée sous conditions ou explicitement attendue.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nAjouter des formulations de consignes et des exemples de règles d’usage.\nVoir aussi Les contrats pédagogiques.",
-    "crumbs": [
-      "<span id=\"nav-language-label\">Français</span>",
-      "Évaluations",
-      "2. Approches pour des évaluations robustes"
-    ]
-  },
-  {
-    "objectID": "fr/guides/evaluations/approaches.html#lévaluation-orale-et-linteraction-directe",
-    "href": "fr/guides/evaluations/approaches.html#lévaluation-orale-et-linteraction-directe",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "L’évaluation orale et l’interaction directe",
-    "text": "L’évaluation orale et l’interaction directe\nMaintenir des moments d’échange direct — soutenance, questions orales, discussion ou démonstration — afin de vérifier l’appropriation des concepts et la capacité à défendre les choix réalisés.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nDécrire plusieurs formats courts compatibles avec de grands effectifs.",
-    "crumbs": [
-      "<span id=\"nav-language-label\">Français</span>",
-      "Évaluations",
-      "2. Approches pour des évaluations robustes"
-    ]
-  },
-  {
-    "objectID": "fr/guides/evaluations/approaches.html#lia-comme-compétence-à-évaluer",
-    "href": "fr/guides/evaluations/approaches.html#lia-comme-compétence-à-évaluer",
-    "title": "Plusieurs approches pour des évaluations robustes à l’IA",
-    "section": "L’IA comme compétence à évaluer",
-    "text": "L’IA comme compétence à évaluer\nÉvaluer la capacité à utiliser l’IA de manière raisonnée : formuler une demande, examiner une réponse, vérifier les affirmations, identifier les limites et améliorer la production obtenue.\n\n\n\n\n\n\nNoteÀ compléter\n\n\n\nProposer des critères d’évaluation de l’usage critique de l’IA.",
+    "objectID": "fr/guides/evaluations/approaches.html#combiner-les-approches",
+    "href": "fr/guides/evaluations/approaches.html#combiner-les-approches",
+    "title": "Approches pour des évaluations robustes",
+    "section": "Combiner les approches",
+    "text": "Combiner les approches\nCes formats sont souvent plus efficaces lorsqu’ils sont combinés. Quelques associations fréquentes :\n\nRendu écrit + entretien de vérification : préserve le travail approfondi tout en vérifiant l’appropriation.\nÉvaluation du processus + portfolio : suit la progression sur la durée.\nTâche authentique + soutenance orale : ancre le travail dans un contexte réel et vérifie la maîtrise.\nÉpreuve surveillée + analyse critique de productions d’IA : combine vérification des connaissances et compétences d’usage raisonné.\n\n\n\n\n\n\n\nAstucePour aller plus loin\n\n\n\nLes pages Détection de l’IA et Introduction et contexte complètent ce panorama.",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Évaluations",

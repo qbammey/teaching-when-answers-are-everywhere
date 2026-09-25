@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Repenser les tâches, le processus et le contrat pédagogique.">
+<meta name="description" content="Panorama des formats d’évaluation résistants à l’usage de l’IA générative : principes, mise en œuvre, avantages et points d’attention.">
 
-<title>Plusieurs approches pour des évaluations robustes à l’IA – Teaching when answers are everywhere</title>
+<title>Approches pour des évaluations robustes – Teaching when answers are everywhere</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -261,16 +261,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#le-changement-de-paradigme-vers-lévaluation-authentique" id="toc-le-changement-de-paradigme-vers-lévaluation-authentique" class="nav-link active" data-scroll-target="#le-changement-de-paradigme-vers-lévaluation-authentique">Le changement de paradigme : vers l’évaluation authentique</a></li>
-  <li><a href="#vulnérabilité-des-évaluations-et-niveau-cognitif" id="toc-vulnérabilité-des-évaluations-et-niveau-cognitif" class="nav-link" data-scroll-target="#vulnérabilité-des-évaluations-et-niveau-cognitif">Vulnérabilité des évaluations et niveau cognitif</a>
+  <li><a href="#vue-densemble" id="toc-vue-densemble" class="nav-link active" data-scroll-target="#vue-densemble">Vue d’ensemble</a></li>
+  <li><a href="#les-formats-en-détail" id="toc-les-formats-en-détail" class="nav-link" data-scroll-target="#les-formats-en-détail">Les formats en détail</a>
   <ul class="collapse">
-  <li><a href="#une-lecture-inspirée-de-la-taxonomie-de-bloom" id="toc-une-lecture-inspirée-de-la-taxonomie-de-bloom" class="nav-link" data-scroll-target="#une-lecture-inspirée-de-la-taxonomie-de-bloom">Une lecture inspirée de la taxonomie de Bloom</a></li>
+  <li><a href="#examen-oral" id="toc-examen-oral" class="nav-link" data-scroll-target="#examen-oral">Examen oral</a></li>
+  <li><a href="#épreuve-écrite-surveillée" id="toc-épreuve-écrite-surveillée" class="nav-link" data-scroll-target="#épreuve-écrite-surveillée">Épreuve écrite surveillée</a></li>
+  <li><a href="#évaluation-du-processus" id="toc-évaluation-du-processus" class="nav-link" data-scroll-target="#évaluation-du-processus">Évaluation du processus</a></li>
+  <li><a href="#portfolio" id="toc-portfolio" class="nav-link" data-scroll-target="#portfolio">Portfolio</a></li>
+  <li><a href="#tâche-authentique-et-contextualisée" id="toc-tâche-authentique-et-contextualisée" class="nav-link" data-scroll-target="#tâche-authentique-et-contextualisée">Tâche authentique et contextualisée</a></li>
+  <li><a href="#travaux-pratiques-et-démonstration-en-direct" id="toc-travaux-pratiques-et-démonstration-en-direct" class="nav-link" data-scroll-target="#travaux-pratiques-et-démonstration-en-direct">Travaux pratiques et démonstration en direct</a></li>
+  <li><a href="#entretien-de-vérification-après-un-rendu" id="toc-entretien-de-vérification-après-un-rendu" class="nav-link" data-scroll-target="#entretien-de-vérification-après-un-rendu">Entretien de vérification après un rendu</a></li>
+  <li><a href="#analyse-critique-de-productions-dia" id="toc-analyse-critique-de-productions-dia" class="nav-link" data-scroll-target="#analyse-critique-de-productions-dia">Analyse critique de productions d’IA</a></li>
+  <li><a href="#évaluation-par-les-pairs" id="toc-évaluation-par-les-pairs" class="nav-link" data-scroll-target="#évaluation-par-les-pairs">Évaluation par les pairs</a></li>
+  <li><a href="#simulation-jeu-de-rôle-mise-en-situation" id="toc-simulation-jeu-de-rôle-mise-en-situation" class="nav-link" data-scroll-target="#simulation-jeu-de-rôle-mise-en-situation">Simulation, jeu de rôle, mise en situation</a></li>
   </ul></li>
-  <li><a href="#lancrage-dans-la-singularité" id="toc-lancrage-dans-la-singularité" class="nav-link" data-scroll-target="#lancrage-dans-la-singularité">L’ancrage dans la singularité</a></li>
-  <li><a href="#le-processus-comme-objet-dévaluation" id="toc-le-processus-comme-objet-dévaluation" class="nav-link" data-scroll-target="#le-processus-comme-objet-dévaluation">Le processus comme objet d’évaluation</a></li>
-  <li><a href="#le-contrat-pédagogique-explicite" id="toc-le-contrat-pédagogique-explicite" class="nav-link" data-scroll-target="#le-contrat-pédagogique-explicite">Le contrat pédagogique explicite</a></li>
-  <li><a href="#lévaluation-orale-et-linteraction-directe" id="toc-lévaluation-orale-et-linteraction-directe" class="nav-link" data-scroll-target="#lévaluation-orale-et-linteraction-directe">L’évaluation orale et l’interaction directe</a></li>
-  <li><a href="#lia-comme-compétence-à-évaluer" id="toc-lia-comme-compétence-à-évaluer" class="nav-link" data-scroll-target="#lia-comme-compétence-à-évaluer">L’IA comme compétence à évaluer</a></li>
+  <li><a href="#combiner-les-approches" id="toc-combiner-les-approches" class="nav-link" data-scroll-target="#combiner-les-approches">Combiner les approches</a></li>
   </ul>
 </nav>
     </div>
@@ -279,12 +284,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../fr/guides/evaluations/introduction.html">Évaluations</a></li><li class="breadcrumb-item"><a href="../../../fr/guides/evaluations/approaches.html">2. Approches pour des évaluations robustes</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Plusieurs approches pour des évaluations robustes à l’IA</h1>
+<h1 class="title">Approches pour des évaluations robustes</h1>
 </div>
 
 <div>
   <div class="description">
-    Repenser les tâches, le processus et le contrat pédagogique.
+    Panorama des formats d’évaluation résistants à l’usage de l’IA générative : principes, mise en œuvre, avantages et points d’attention.
   </div>
 </div>
 
@@ -301,316 +306,246 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="le-changement-de-paradigme-vers-lévaluation-authentique" class="level2">
-<h2 class="anchored" data-anchor-id="le-changement-de-paradigme-vers-lévaluation-authentique">Le changement de paradigme : vers l’évaluation authentique</h2>
+<div class="callout callout-style-simple callout-note callout-titled" title="À propos de cette page">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>À propos de cette page
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cette page présente, de façon neutre, les formats d’évaluation couramment cités comme <strong>robustes à l’IA générative</strong>, c’est-à-dire des formats où l’usage non déclaré d’un outil d’IA est difficile ou peu utile pour réussir l’épreuve.</p>
+<p>Aucun format n’est infaillible, et aucun n’est adapté à toutes les situations. Le choix dépend des objectifs d’apprentissage, de la taille du groupe, du temps disponible et du contexte de la formation. Les formats peuvent être combinés.</p>
+</div>
+</div>
+<section id="vue-densemble" class="level2">
+<h2 class="anchored" data-anchor-id="vue-densemble">Vue d’ensemble</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th>Évaluation traditionnelle</th>
-<th>Évaluation authentique</th>
+<th>Format</th>
+<th>Moment de l’évaluation</th>
+<th>Taille de groupe adaptée</th>
+<th>Charge pour l’enseignant</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Objet évalué</strong></td>
-<td>Le produit fini</td>
-<td>Le processus cognitif et les itérations</td>
+<td>Examen oral</td>
+<td>En direct</td>
+<td>Petite à moyenne</td>
+<td>Élevée</td>
 </tr>
 <tr class="even">
-<td><strong>Nature de la tâche</strong></td>
-<td>Standardisée, décontextualisée, principalement fondée sur la restitution</td>
-<td>Complexe, contextualisée, professionnalisante et ancrée dans le réel</td>
+<td>Épreuve écrite surveillée</td>
+<td>En direct</td>
+<td>Toutes tailles</td>
+<td>Modérée</td>
 </tr>
 <tr class="odd">
-<td><strong>Format</strong></td>
-<td>Écrit non supervisé et QCM classiques</td>
-<td>Projets, soutenances orales, simulations et activités collaboratives</td>
+<td>Évaluation du processus</td>
+<td>Au fil du travail</td>
+<td>Petite à moyenne</td>
+<td>Élevée</td>
 </tr>
 <tr class="even">
-<td><strong>Rôle de l’IA</strong></td>
-<td>Menace extérieure et possible moyen de fraude</td>
-<td>Outil intégré dont l’usage est analysé, justifié et discuté</td>
+<td>Portfolio</td>
+<td>Au fil du semestre</td>
+<td>Petite à moyenne</td>
+<td>Élevée</td>
+</tr>
+<tr class="odd">
+<td>Tâche authentique et contextualisée</td>
+<td>Rendu différé</td>
+<td>Toutes tailles</td>
+<td>Modérée</td>
+</tr>
+<tr class="even">
+<td>Travaux pratiques et démonstration en direct</td>
+<td>En direct</td>
+<td>Petite à moyenne</td>
+<td>Modérée à élevée</td>
+</tr>
+<tr class="odd">
+<td>Entretien de vérification après un rendu</td>
+<td>Rendu différé + échange court</td>
+<td>Toutes tailles (par échantillonnage)</td>
+<td>Modérée</td>
+</tr>
+<tr class="even">
+<td>Analyse critique de productions d’IA</td>
+<td>Rendu différé ou en direct</td>
+<td>Toutes tailles</td>
+<td>Modérée</td>
+</tr>
+<tr class="odd">
+<td>Évaluation par les pairs</td>
+<td>Au fil du travail</td>
+<td>Moyenne à grande</td>
+<td>Faible à modérée</td>
+</tr>
+<tr class="even">
+<td>Simulation, jeu de rôle, mise en situation</td>
+<td>En direct</td>
+<td>Petite à moyenne</td>
+<td>Élevée</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
+</section>
+<section id="les-formats-en-détail" class="level2">
+<h2 class="anchored" data-anchor-id="les-formats-en-détail">Les formats en détail</h2>
+<section id="examen-oral" class="level3">
+<h3 class="anchored" data-anchor-id="examen-oral">Examen oral</h3>
+<p><strong>Principe.</strong> L’étudiant répond oralement à des questions, présente un travail ou défend un raisonnement devant un ou plusieurs évaluateurs.</p>
+<p><strong>Mise en œuvre.</strong> Questions tirées au sort, soutenance de projet, exposé suivi d’un échange, oral court en fin de séance. Une grille d’évaluation partagée à l’avance renforce l’équité entre candidats.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Permet de vérifier la compréhension réelle et la capacité à mobiliser des connaissances sans support.</li>
+<li>Les questions de relance permettent d’explorer le raisonnement en profondeur.</li>
+<li>Développe des compétences de communication utiles en contexte professionnel.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Temps important pour les grands effectifs ; risque de biais d’évaluation ; stress accru pour certains étudiants ; nécessite des aménagements pour les étudiants en situation de handicap.</p>
+</section>
+<section id="épreuve-écrite-surveillée" class="level3">
+<h3 class="anchored" data-anchor-id="épreuve-écrite-surveillée">Épreuve écrite surveillée</h3>
+<p><strong>Principe.</strong> Épreuve réalisée en temps limité, en présentiel, sans accès aux outils numériques ou avec un accès contrôlé.</p>
+<p><strong>Mise en œuvre.</strong> Examen sur table, QCM ou questions ouvertes sur poste verrouillé, étude de cas en temps limité. Les documents autorisés peuvent être définis précisément (aucun, fiche personnelle, documents de cours).</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Cadre bien connu des étudiants et des institutions.</li>
+<li>Adapté aux grands effectifs.</li>
+<li>Conditions identiques pour tous les candidats.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Évalue surtout des performances en temps contraint ; peu adapté aux compétences de production longue ou de recherche ; logistique de surveillance à prévoir.</p>
+</section>
+<section id="évaluation-du-processus" class="level3">
+<h3 class="anchored" data-anchor-id="évaluation-du-processus">Évaluation du processus</h3>
+<p><strong>Principe.</strong> On évalue la démarche suivie, et pas seulement le produit final : étapes intermédiaires, brouillons, choix effectués, difficultés rencontrées.</p>
+<p><strong>Mise en œuvre.</strong> Rendus intermédiaires notés ou commentés, journal de bord, historique des versions (par exemple l’historique d’un document partagé ou d’un dépôt Git), note d’intention puis bilan réflexif.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Rend visible la progression de l’apprenant.</li>
+<li>Permet des retours formatifs réguliers.</li>
+<li>Une production entièrement générée en une fois devient facilement repérable.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Suivi exigeant pour l’enseignant ; nécessite de définir clairement ce qui est attendu à chaque étape ; les traces intermédiaires peuvent elles aussi être produites avec une IA si elles ne sont pas accompagnées d’échanges.</p>
+</section>
+<section id="portfolio" class="level3">
+<h3 class="anchored" data-anchor-id="portfolio">Portfolio</h3>
+<p><strong>Principe.</strong> Recueil organisé de productions réalisées sur une période longue, accompagné d’une analyse réflexive de l’étudiant sur ses apprentissages.</p>
+<p><strong>Mise en œuvre.</strong> Sélection commentée de travaux, justification des choix, mise en lien avec les compétences visées, présentation orale possible en fin de parcours.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Valorise la progression dans la durée.</li>
+<li>Encourage la réflexivité et l’autonomie.</li>
+<li>Adapté à l’approche par compétences et à la formation continue.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Correction longue ; critères d’évaluation à expliciter précisément ; la partie réflexive gagne à être vérifiée par un échange oral.</p>
+</section>
+<section id="tâche-authentique-et-contextualisée" class="level3">
+<h3 class="anchored" data-anchor-id="tâche-authentique-et-contextualisée">Tâche authentique et contextualisée</h3>
+<p><strong>Principe.</strong> Le travail demandé s’appuie sur un contexte spécifique : données locales, cas d’entreprise réel, expérience personnelle ou professionnelle de l’apprenant, contenu vu uniquement en séance.</p>
+<p><strong>Mise en œuvre.</strong> Étude de cas tirée de l’organisation de l’apprenant, analyse de données fournies en cours, projet répondant à une commande réelle, lien obligatoire avec des éléments discutés en classe.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Donne du sens à l’évaluation et la rapproche des situations professionnelles.</li>
+<li>Les réponses génériques produites par une IA sont peu pertinentes.</li>
+<li>Favorise le transfert des connaissances.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Conception plus longue ; les outils d’IA peuvent traiter du contexte s’il leur est fourni, ce format réduit donc le risque sans l’éliminer ; comparabilité entre étudiants parfois plus difficile.</p>
+</section>
+<section id="travaux-pratiques-et-démonstration-en-direct" class="level3">
+<h3 class="anchored" data-anchor-id="travaux-pratiques-et-démonstration-en-direct">Travaux pratiques et démonstration en direct</h3>
+<p><strong>Principe.</strong> L’étudiant réalise une manipulation, un développement ou une résolution de problème devant l’évaluateur.</p>
+<p><strong>Mise en œuvre.</strong> TP noté en salle, programmation en direct (<em>live coding</em>), démonstration d’un prototype avec modification demandée sur le moment, manipulation d’un équipement.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Évalue directement le savoir-faire.</li>
+<li>Permet d’observer la méthode et la gestion des erreurs.</li>
+<li>Particulièrement adapté aux formations techniques et scientifiques.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Mobilise du matériel et des créneaux ; nombre d’étudiants limité par session ; conditions à standardiser pour garantir l’équité.</p>
+</section>
+<section id="entretien-de-vérification-après-un-rendu" class="level3">
+<h3 class="anchored" data-anchor-id="entretien-de-vérification-après-un-rendu">Entretien de vérification après un rendu</h3>
+<p><strong>Principe.</strong> Un travail écrit réalisé librement est complété par un court échange oral (5 à 15 minutes) au cours duquel l’étudiant explique et justifie ce qu’il a produit.</p>
+<p><strong>Mise en œuvre.</strong> Entretien systématique ou sur échantillon aléatoire, questions sur les choix effectués, demande de modifier ou prolonger une partie du travail. La note peut combiner le rendu et l’entretien.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Préserve l’intérêt des travaux longs et approfondis.</li>
+<li>Vérifie l’appropriation du contenu rendu.</li>
+<li>Moins coûteux qu’un oral complet.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Nécessite de planifier des créneaux ; le mode de prise en compte de l’entretien dans la note doit être annoncé à l’avance.</p>
+</section>
+<section id="analyse-critique-de-productions-dia" class="level3">
+<h3 class="anchored" data-anchor-id="analyse-critique-de-productions-dia">Analyse critique de productions d’IA</h3>
+<p><strong>Principe.</strong> L’usage de l’IA est intégré à l’évaluation : l’étudiant analyse, vérifie, corrige ou améliore un contenu produit par un outil d’IA.</p>
+<p><strong>Mise en œuvre.</strong> Repérer les erreurs d’une réponse générée, comparer plusieurs réponses, vérifier les sources citées, documenter et justifier son usage de l’IA dans un travail (requêtes utilisées, résultats retenus ou écartés).</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Développe l’esprit critique et la maîtrise des outils.</li>
+<li>Aligne l’évaluation sur les usages professionnels réels.</li>
+<li>Rend l’usage de l’IA explicite et transparent.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Exige de l’enseignant une bonne connaissance des outils ; les consignes doivent préciser ce qui est évalué (l’analyse, pas le texte généré) ; équité d’accès aux outils à garantir.</p>
+</section>
+<section id="évaluation-par-les-pairs" class="level3">
+<h3 class="anchored" data-anchor-id="évaluation-par-les-pairs">Évaluation par les pairs</h3>
+<p><strong>Principe.</strong> Les étudiants évaluent les travaux de leurs camarades à l’aide d’une grille, souvent en complément de l’évaluation de l’enseignant.</p>
+<p><strong>Mise en œuvre.</strong> Relecture croisée anonyme, commentaires argumentés, co-évaluation au sein d’un groupe de projet, notation de la qualité des retours donnés.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Développe la capacité de jugement et d’argumentation.</li>
+<li>Multiplie les retours pour chaque étudiant.</li>
+<li>Adapté aux grands effectifs.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Formation préalable des étudiants à l’usage de la grille ; fiabilité variable des notes ; les commentaires eux-mêmes peuvent être générés par une IA s’ils ne sont pas encadrés.</p>
+</section>
+<section id="simulation-jeu-de-rôle-mise-en-situation" class="level3">
+<h3 class="anchored" data-anchor-id="simulation-jeu-de-rôle-mise-en-situation">Simulation, jeu de rôle, mise en situation</h3>
+<p><strong>Principe.</strong> L’étudiant agit dans un scénario proche d’une situation professionnelle : négociation, gestion de crise, entretien client, réunion de projet.</p>
+<p><strong>Mise en œuvre.</strong> Scénario préparé avec des rôles définis, observation selon une grille, débriefing après la mise en situation, éventuellement enregistrement vidéo pour l’auto-évaluation.</p>
+<p><strong>Avantages.</strong></p>
+<ul>
+<li>Évalue des compétences comportementales et relationnelles.</li>
+<li>Très proche des attentes du monde professionnel.</li>
+<li>Forte implication des participants.</li>
+</ul>
+<p><strong>Points d’attention.</strong> Préparation importante ; objectivité de l’observation à encadrer ; format moins adapté aux savoirs théoriques.</p>
+</section>
+</section>
+<section id="combiner-les-approches" class="level2">
+<h2 class="anchored" data-anchor-id="combiner-les-approches">Combiner les approches</h2>
+<p>Ces formats sont souvent plus efficaces lorsqu’ils sont combinés. Quelques associations fréquentes :</p>
+<ul>
+<li><strong>Rendu écrit + entretien de vérification</strong> : préserve le travail approfondi tout en vérifiant l’appropriation.</li>
+<li><strong>Évaluation du processus + portfolio</strong> : suit la progression sur la durée.</li>
+<li><strong>Tâche authentique + soutenance orale</strong> : ancre le travail dans un contexte réel et vérifie la maîtrise.</li>
+<li><strong>Épreuve surveillée + analyse critique de productions d’IA</strong> : combine vérification des connaissances et compétences d’usage raisonné.</li>
+</ul>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Pour aller plus loin">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Ces approches ne sont pas exclusives. Elles peuvent être combinées selon le contexte, le niveau des étudiants et les objectifs pédagogiques.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="vulnérabilité-des-évaluations-et-niveau-cognitif" class="level2">
-<h2 class="anchored" data-anchor-id="vulnérabilité-des-évaluations-et-niveau-cognitif">Vulnérabilité des évaluations et niveau cognitif</h2>
-<section id="une-lecture-inspirée-de-la-taxonomie-de-bloom" class="level3 ai-vulnerability__title ai-vulnerability">
-<h3 class="ai-vulnerability__title anchored" data-anchor-id="une-lecture-inspirée-de-la-taxonomie-de-bloom">Une lecture inspirée de la taxonomie de Bloom</h3>
-<div class="ai-vulnerability__body">
-<div class="ai-vulnerability__pyramid" aria-label="Pyramide représentant la vulnérabilité des évaluations à l’intelligence artificielle">
-<div class="ai-vulnerability__layer ai-vulnerability__layer--top">
-<p>Évaluation et créativité</p>
-</div>
-<div class="ai-vulnerability__layer ai-vulnerability__layer--middle">
-<p>Application et analyse</p>
-</div>
-<div class="ai-vulnerability__layer ai-vulnerability__layer--bottom">
-<p>Mémorisation et compréhension</p>
-</div>
-</div>
-<div class="ai-vulnerability__legend">
-<section id="différenciateur-humain" class="level4 ai-vulnerability__legend-item ai-vulnerability__legend-item--top">
-<h4 class="anchored" data-anchor-id="différenciateur-humain">Différenciateur humain</h4>
-<p>Les projets complexes, les situations contextualisées, les laboratoires et l’exercice de l’esprit critique restent les plus difficiles à automatiser.</p>
-</section>
-<section id="zone-intermédiaire" class="level4 ai-vulnerability__legend-item ai-vulnerability__legend-item--middle">
-<h4 class="anchored" data-anchor-id="zone-intermédiaire">Zone intermédiaire</h4>
-<p>L’IA peut traiter des études de cas standards, mais ses résultats deviennent plus fragiles lorsque le contexte est spécifique ou incomplet.</p>
-</section>
-<section id="forte-vulnérabilité" class="level4 ai-vulnerability__legend-item ai-vulnerability__legend-item--bottom">
-<h4 class="anchored" data-anchor-id="forte-vulnérabilité">Forte vulnérabilité</h4>
-<p>L’IA générative est particulièrement performante pour restituer, reformuler et synthétiser des connaissances accessibles.</p>
-</section>
-</div>
-</div>
-<div class="ai-vulnerability__source">
-<p>Source adaptée de Cathia Papi, Amélie Beaudoin, Nilce Da Silva, Serge Gérin-Lajoie et Marie-Hélène Hébert, « Repenser l’évaluation des apprentissages à l’ère de l’IA : une revue de la littérature anglophone », <em>Distances et médiations des savoirs</em>, no 54, 2026.</p>
-</div>
-</section>
-</section>
-<section id="lancrage-dans-la-singularité" class="level2">
-<h2 class="anchored" data-anchor-id="lancrage-dans-la-singularité">L’ancrage dans la singularité</h2>
-<p>Concevoir des sujets liés à une expérience vécue, un projet réel, un terrain, un jeu de données ou une situation propre à l’étudiant ou au groupe. Une réponse générique produite par une IA devient alors moins facilement substituable au travail demandé.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>À compléter
+<span class="screen-reader-only">Astuce</span>Pour aller plus loin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ajouter des exemples et des déclinaisons pratiques adaptés aux différentes disciplines.</p>
+<p>Les pages <a href="../../../fr/guides/evaluations/ai-detection.html">Détection de l’IA</a> et <a href="../../../fr/guides/evaluations/introduction.html">Introduction et contexte</a> complètent ce panorama.</p>
 </div>
 </div>
-</section>
-<section id="le-processus-comme-objet-dévaluation" class="level2">
-<h2 class="anchored" data-anchor-id="le-processus-comme-objet-dévaluation">Le processus comme objet d’évaluation</h2>
-<p>Évaluer non seulement le résultat final, mais aussi le cheminement : hypothèses, versions intermédiaires, journal de bord, choix méthodologiques, retours reçus et justification des révisions.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>À compléter
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Documenter des exemples de jalons intermédiaires et de traces de processus.</p>
-</div>
-</div>
-</section>
-<section id="le-contrat-pédagogique-explicite" class="level2">
-<h2 class="anchored" data-anchor-id="le-contrat-pédagogique-explicite">Le contrat pédagogique explicite</h2>
-<p>Préciser pour chaque évaluation si l’utilisation de l’IA est interdite, tolérée, autorisée sous conditions ou explicitement attendue.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>À compléter
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Ajouter des formulations de consignes et des exemples de règles d’usage.</p>
-<p>Voir aussi <a href="05-pedagogical-contracts.qmd">Les contrats pédagogiques</a>.</p>
-</div>
-</div>
-</section>
-<section id="lévaluation-orale-et-linteraction-directe" class="level2">
-<h2 class="anchored" data-anchor-id="lévaluation-orale-et-linteraction-directe">L’évaluation orale et l’interaction directe</h2>
-<p>Maintenir des moments d’échange direct — soutenance, questions orales, discussion ou démonstration — afin de vérifier l’appropriation des concepts et la capacité à défendre les choix réalisés.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>À compléter
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Décrire plusieurs formats courts compatibles avec de grands effectifs.</p>
-</div>
-</div>
-</section>
-<section id="lia-comme-compétence-à-évaluer" class="level2">
-<h2 class="anchored" data-anchor-id="lia-comme-compétence-à-évaluer">L’IA comme compétence à évaluer</h2>
-<p>Évaluer la capacité à utiliser l’IA de manière raisonnée : formuler une demande, examiner une réponse, vérifier les affirmations, identifier les limites et améliorer la production obtenue.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>À compléter
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Proposer des critères d’évaluation de l’usage critique de l’IA.</p>
-</div>
-</div>
-<!-- Styles specific to the diagram. -->
-<style>
-.ai-vulnerability {
-  margin: 2rem 0;
-  overflow: hidden;
-  border: 1px solid var(--bs-border-color);
-  border-radius: var(--bs-border-radius-lg);
-}
-
-.ai-vulnerability__title {
-  margin: 0;
-  padding: 1.25rem 1.5rem;
-  color: var(--bs-body-color);
-  background: transparent;
-  font-size: 1.2rem;
-}
-
-.ai-vulnerability__body {
-  display: grid;
-  grid-template-columns: minmax(16rem, 0.9fr) minmax(20rem, 1.3fr);
-  gap: 2.5rem;
-  align-items: center;
-  padding: 2rem;
-}
-
-.ai-vulnerability__pyramid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.ai-vulnerability__layer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 4rem;
-  padding: 0.8rem 1.25rem;
-  color: var(--bs-white);
-  text-align: center;
-  font-weight: 700;
-  line-height: 1.25;
-  clip-path: polygon(12% 0, 88% 0, 100% 100%, 0 100%);
-}
-
-.ai-vulnerability__layer + .ai-vulnerability__layer {
-  margin-top: 0.3rem;
-}
-
-.ai-vulnerability__layer--top {
-  width: 48%;
-  background: color-mix(
-    in srgb,
-    var(--bs-primary) 55%,
-    var(--bs-dark)
-  );
-}
-
-.ai-vulnerability__layer--middle {
-  width: 72%;
-  color: var(--bs-body-color);
-  background: color-mix(
-    in srgb,
-    var(--bs-primary) 35%,
-    var(--bs-white)
-  );
-}
-
-.ai-vulnerability__layer--bottom {
-  width: 100%;
-  background: var(--bs-primary);
-}
-
-.ai-vulnerability__legend {
-  display: grid;
-  gap: 1rem;
-}
-
-.ai-vulnerability__legend-item {
-  padding-left: 1rem;
-  border-left: 0.3rem solid;
-}
-
-.ai-vulnerability__legend-item h4 {
-  margin: 0 0 0.3rem;
-  font-size: 1rem;
-}
-
-.ai-vulnerability__legend-item p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.ai-vulnerability__legend-item--top {
-  border-color: color-mix(
-    in srgb,
-    var(--bs-primary) 55%,
-    var(--bs-dark)
-  );
-}
-
-.ai-vulnerability__legend-item--middle {
-  border-color: color-mix(
-    in srgb,
-    var(--bs-primary) 35%,
-    var(--bs-white)
-  );
-}
-
-.ai-vulnerability__legend-item--bottom {
-  border-color: var(--bs-primary);
-}
-
-.ai-vulnerability__source {
-  padding: 1rem 1.5rem;
-  color: var(--bs-secondary-color);
-  background: var(--bs-light);
-  border-top: 1px solid var(--bs-border-color);
-  font-size: 0.82rem;
-  line-height: 1.45;
-}
-
-.ai-vulnerability__source p {
-  margin: 0;
-}
-
-@media (max-width: 800px) {
-  .ai-vulnerability__body {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    padding: 1.5rem;
-  }
-
-  .ai-vulnerability__pyramid {
-    max-width: 28rem;
-    margin-inline: auto;
-  }
-}
-</style>
 
 
 </section>

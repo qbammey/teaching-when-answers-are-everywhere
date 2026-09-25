@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Prompts réutilisables pour concevoir et relire des évaluations.">
+<meta name="description" content="Exemples de prompts pour s’appuyer sur l’IA générative dans la conception d’évaluations robustes.">
 
 <title>Prompts – Teaching when answers are everywhere</title>
 <style>
@@ -261,7 +261,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#modèle-de-prompt" id="toc-modèle-de-prompt" class="nav-link active" data-scroll-target="#modèle-de-prompt">Modèle de prompt</a></li>
+  <li><a href="#prompt-1-analyser-et-faire-évoluer-une-évaluation-existante" id="toc-prompt-1-analyser-et-faire-évoluer-une-évaluation-existante" class="nav-link active" data-scroll-target="#prompt-1-analyser-et-faire-évoluer-une-évaluation-existante">Prompt 1 : analyser et faire évoluer une évaluation existante</a></li>
+  <li><a href="#prompt-2-concevoir-une-nouvelle-évaluation-robuste" id="toc-prompt-2-concevoir-une-nouvelle-évaluation-robuste" class="nav-link" data-scroll-target="#prompt-2-concevoir-une-nouvelle-évaluation-robuste">Prompt 2 : concevoir une nouvelle évaluation robuste</a></li>
   </ul>
 </nav>
     </div>
@@ -275,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Prompts réutilisables pour concevoir et relire des évaluations.
+    Exemples de prompts pour s’appuyer sur l’IA générative dans la conception d’évaluations robustes.
   </div>
 </div>
 
@@ -292,23 +293,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Chaque prompt devrait préciser son objectif, les informations nécessaires, le résultat attendu et les éléments que l’enseignant doit vérifier.</p>
-<section id="modèle-de-prompt" class="level2">
-<h2 class="anchored" data-anchor-id="modèle-de-prompt">Modèle de prompt</h2>
-<div class="callout callout-style-simple callout-note callout-titled" title="Concevoir une évaluation">
+<div class="callout callout-style-simple callout-note callout-titled" title="Comment utiliser ces prompts">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Concevoir une évaluation
+<span class="screen-reader-only">Note</span>Comment utiliser ces prompts
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Objectif :</strong> Décrire l’usage prévu.</p>
-<p><strong>Informations :</strong> Niveau du cours, acquis d’apprentissage, modalité, durée et contraintes.</p>
-<p><strong>Prompt :</strong> Ajouter ici le prompt relu et validé.</p>
-<p><strong>Vérifications :</strong> Lister les éléments à contrôler avant utilisation.</p>
+<p>Les prompts proposés sur cette page sont des <strong>exemples</strong>. Ils illustrent comment l’IA générative peut aider les enseignants à <strong>concevoir des évaluations robustes</strong> ou à <strong>trouver des pistes pour faire évoluer leurs évaluations existantes</strong>.</p>
+<p>Ils ne constituent ni une méthode officielle ni une solution clé en main :</p>
+<ul>
+<li>ils sont <strong>à adapter à chaque contexte</strong> : discipline, niveau, objectifs d’apprentissage, taille du groupe, modalités de la formation ;</li>
+<li>les propositions de l’IA sont des <strong>pistes de réflexion</strong> qui doivent être relues, vérifiées et ajustées par l’enseignant, qui reste seul responsable de ses choix pédagogiques ;</li>
+<li>les éléments entre crochets <code>[...]</code> sont à remplacer par vos propres informations.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning callout-titled" title="Protection des données">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Avertissement</span>Protection des données
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ne saisissez aucune donnée personnelle d’étudiant (noms, copies, notes) dans un outil d’IA. Privilégiez les outils mis à disposition ou recommandés par votre établissement.</p>
+</div>
+</div>
+<section id="prompt-1-analyser-et-faire-évoluer-une-évaluation-existante" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-1-analyser-et-faire-évoluer-une-évaluation-existante">Prompt 1 : analyser et faire évoluer une évaluation existante</h2>
+<p><strong>Objectif.</strong> Identifier les points de vulnérabilité d’une évaluation face à l’IA générative et obtenir des pistes concrètes pour la rendre plus robuste, sans perdre de vue les objectifs d’apprentissage.</p>
+<pre class="text"><code>Tu es conseiller pédagogique spécialisé en évaluation dans l'enseignement supérieur.
+
+Contexte :
+- Formation : [intitulé du cours, niveau, formation initiale ou continue]
+- Public : [profil des apprenants, nombre d'étudiants]
+- Objectifs d'apprentissage évalués : [liste des compétences ou acquis visés]
+- Évaluation actuelle : [description précise : type de rendu, consignes, durée, conditions de réalisation, critères de notation]
+
+Ta mission :
+1. Analyse dans quelle mesure cette évaluation peut être réalisée en tout ou partie avec une IA générative, sans que l'enseignant puisse vérifier les acquis réels de l'étudiant. Précise pour chaque partie de l'évaluation le niveau de vulnérabilité (faible, moyen, élevé) et explique pourquoi.
+2. Propose trois pistes d'évolution de l'évaluation, de la plus légère à la plus profonde (par exemple : ajout d'un échange oral, évaluation du processus, contextualisation de la tâche, intégration explicite de l'IA).
+3. Pour chaque piste, indique : ce qui change concrètement, les avantages, les limites, et la charge de travail supplémentaire pour l'enseignant.
+4. Vérifie que chaque piste reste alignée avec les objectifs d'apprentissage indiqués.
+
+Présente ta réponse sous forme structurée, avec un tableau de synthèse à la fin. Si des informations te manquent pour répondre correctement, pose-moi d'abord des questions.</code></pre>
+</section>
+<section id="prompt-2-concevoir-une-nouvelle-évaluation-robuste" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-2-concevoir-une-nouvelle-évaluation-robuste">Prompt 2 : concevoir une nouvelle évaluation robuste</h2>
+<p><strong>Objectif.</strong> Construire une évaluation complète (consignes, déroulement, grille d’évaluation) qui vérifie les compétences réelles des apprenants dans un contexte où l’IA générative est accessible.</p>
+<pre class="text"><code>Tu es ingénieur pédagogique spécialisé dans la conception d'évaluations pour l'enseignement supérieur et la formation continue.
+
+Contexte :
+- Formation : [intitulé du cours, niveau, formation initiale ou continue]
+- Public : [profil des apprenants, nombre d'étudiants]
+- Compétences à évaluer : [liste des compétences ou acquis visés]
+- Contraintes : [durée disponible, présentiel ou distanciel, travail individuel ou en groupe, temps de correction disponible]
+- Place de l'IA : [interdite / autorisée pour certaines étapes / intégrée à l'évaluation]
+
+Ta mission :
+1. Propose une évaluation qui permette de vérifier les compétences réelles des apprenants, en t'appuyant sur un ou plusieurs formats reconnus comme robustes (oral, évaluation du processus, tâche authentique et contextualisée, mise en situation, analyse critique de productions d'IA, etc.). Justifie ton choix.
+2. Rédige les consignes destinées aux apprenants, y compris une règle claire et explicite sur l'usage autorisé ou non de l'IA.
+3. Décris le déroulement étape par étape (préparation, réalisation, rendu, éventuel échange oral).
+4. Élabore une grille d'évaluation critériée (critères, niveaux de performance, pondération), centrée sur le raisonnement, le jugement et l'appropriation plutôt que sur la seule production finale.
+5. Indique les limites de cette évaluation et les points de vigilance (équité, accessibilité, charge de correction).
+
+Si des informations te manquent pour proposer une évaluation adaptée, pose-moi d'abord des questions.</code></pre>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Conseils d'utilisation">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Astuce</span>Conseils d’utilisation
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Itérez</strong> : n’hésitez pas à demander à l’IA de reformuler, de simplifier ou d’approfondir une proposition.</li>
+<li><strong>Confrontez</strong> les propositions aux cadres de référence présentés dans la page <a href="ressources.qmd">Ressources</a>, par exemple l’AI Assessment Scale ou PRAX-IA.</li>
+<li><strong>Échangez</strong> avec vos collègues : une proposition générée par l’IA gagne à être discutée collectivement avant d’être mise en œuvre.</li>
+</ul>
 </div>
 </div>
 

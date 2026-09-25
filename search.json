@@ -746,7 +746,7 @@
     "href": "fr/guides/evaluations/supporting/prompts.html",
     "title": "Prompts",
     "section": "",
-    "text": "Chaque prompt devrait préciser son objectif, les informations nécessaires, le résultat attendu et les éléments que l’enseignant doit vérifier.",
+    "text": "NoteComment utiliser ces prompts\n\n\n\nLes prompts proposés sur cette page sont des exemples. Ils illustrent comment l’IA générative peut aider les enseignants à concevoir des évaluations robustes ou à trouver des pistes pour faire évoluer leurs évaluations existantes.\nIls ne constituent ni une méthode officielle ni une solution clé en main :\n\nils sont à adapter à chaque contexte : discipline, niveau, objectifs d’apprentissage, taille du groupe, modalités de la formation ;\nles propositions de l’IA sont des pistes de réflexion qui doivent être relues, vérifiées et ajustées par l’enseignant, qui reste seul responsable de ses choix pédagogiques ;\nles éléments entre crochets [...] sont à remplacer par vos propres informations.",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Pages complémentaires",
@@ -754,11 +754,23 @@
     ]
   },
   {
-    "objectID": "fr/guides/evaluations/supporting/prompts.html#modèle-de-prompt",
-    "href": "fr/guides/evaluations/supporting/prompts.html#modèle-de-prompt",
+    "objectID": "fr/guides/evaluations/supporting/prompts.html#prompt-1-analyser-et-faire-évoluer-une-évaluation-existante",
+    "href": "fr/guides/evaluations/supporting/prompts.html#prompt-1-analyser-et-faire-évoluer-une-évaluation-existante",
     "title": "Prompts",
-    "section": "Modèle de prompt",
-    "text": "Modèle de prompt\n\n\n\n\n\n\nNoteConcevoir une évaluation\n\n\n\nObjectif : Décrire l’usage prévu.\nInformations : Niveau du cours, acquis d’apprentissage, modalité, durée et contraintes.\nPrompt : Ajouter ici le prompt relu et validé.\nVérifications : Lister les éléments à contrôler avant utilisation.",
+    "section": "Prompt 1 : analyser et faire évoluer une évaluation existante",
+    "text": "Prompt 1 : analyser et faire évoluer une évaluation existante\nObjectif. Identifier les points de vulnérabilité d’une évaluation face à l’IA générative et obtenir des pistes concrètes pour la rendre plus robuste, sans perdre de vue les objectifs d’apprentissage.\nTu es conseiller pédagogique spécialisé en évaluation dans l'enseignement supérieur.\n\nContexte :\n- Formation : [intitulé du cours, niveau, formation initiale ou continue]\n- Public : [profil des apprenants, nombre d'étudiants]\n- Objectifs d'apprentissage évalués : [liste des compétences ou acquis visés]\n- Évaluation actuelle : [description précise : type de rendu, consignes, durée, conditions de réalisation, critères de notation]\n\nTa mission :\n1. Analyse dans quelle mesure cette évaluation peut être réalisée en tout ou partie avec une IA générative, sans que l'enseignant puisse vérifier les acquis réels de l'étudiant. Précise pour chaque partie de l'évaluation le niveau de vulnérabilité (faible, moyen, élevé) et explique pourquoi.\n2. Propose trois pistes d'évolution de l'évaluation, de la plus légère à la plus profonde (par exemple : ajout d'un échange oral, évaluation du processus, contextualisation de la tâche, intégration explicite de l'IA).\n3. Pour chaque piste, indique : ce qui change concrètement, les avantages, les limites, et la charge de travail supplémentaire pour l'enseignant.\n4. Vérifie que chaque piste reste alignée avec les objectifs d'apprentissage indiqués.\n\nPrésente ta réponse sous forme structurée, avec un tableau de synthèse à la fin. Si des informations te manquent pour répondre correctement, pose-moi d'abord des questions.",
+    "crumbs": [
+      "<span id=\"nav-language-label\">Français</span>",
+      "Pages complémentaires",
+      "Prompts"
+    ]
+  },
+  {
+    "objectID": "fr/guides/evaluations/supporting/prompts.html#prompt-2-concevoir-une-nouvelle-évaluation-robuste",
+    "href": "fr/guides/evaluations/supporting/prompts.html#prompt-2-concevoir-une-nouvelle-évaluation-robuste",
+    "title": "Prompts",
+    "section": "Prompt 2 : concevoir une nouvelle évaluation robuste",
+    "text": "Prompt 2 : concevoir une nouvelle évaluation robuste\nObjectif. Construire une évaluation complète (consignes, déroulement, grille d’évaluation) qui vérifie les compétences réelles des apprenants dans un contexte où l’IA générative est accessible.\nTu es ingénieur pédagogique spécialisé dans la conception d'évaluations pour l'enseignement supérieur et la formation continue.\n\nContexte :\n- Formation : [intitulé du cours, niveau, formation initiale ou continue]\n- Public : [profil des apprenants, nombre d'étudiants]\n- Compétences à évaluer : [liste des compétences ou acquis visés]\n- Contraintes : [durée disponible, présentiel ou distanciel, travail individuel ou en groupe, temps de correction disponible]\n- Place de l'IA : [interdite / autorisée pour certaines étapes / intégrée à l'évaluation]\n\nTa mission :\n1. Propose une évaluation qui permette de vérifier les compétences réelles des apprenants, en t'appuyant sur un ou plusieurs formats reconnus comme robustes (oral, évaluation du processus, tâche authentique et contextualisée, mise en situation, analyse critique de productions d'IA, etc.). Justifie ton choix.\n2. Rédige les consignes destinées aux apprenants, y compris une règle claire et explicite sur l'usage autorisé ou non de l'IA.\n3. Décris le déroulement étape par étape (préparation, réalisation, rendu, éventuel échange oral).\n4. Élabore une grille d'évaluation critériée (critères, niveaux de performance, pondération), centrée sur le raisonnement, le jugement et l'appropriation plutôt que sur la seule production finale.\n5. Indique les limites de cette évaluation et les points de vigilance (équité, accessibilité, charge de correction).\n\nSi des informations te manquent pour proposer une évaluation adaptée, pose-moi d'abord des questions.\n\n\n\n\n\n\nAstuceConseils d’utilisation\n\n\n\n\nItérez : n’hésitez pas à demander à l’IA de reformuler, de simplifier ou d’approfondir une proposition.\nConfrontez les propositions aux cadres de référence présentés dans la page Ressources, par exemple l’AI Assessment Scale ou PRAX-IA.\nÉchangez avec vos collègues : une proposition générée par l’IA gagne à être discutée collectivement avant d’être mise en œuvre.",
     "crumbs": [
       "<span id=\"nav-language-label\">Français</span>",
       "Pages complémentaires",

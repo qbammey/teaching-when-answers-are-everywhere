@@ -48,70 +48,9 @@ citent le manque de temps pour repenser les sujets comme difficulté principale 
 :::
 :::
 
-À la question **«Quelle posture adoptez-vous face à l'IA dans vos évaluations ?»**,
 
-* Un tiers des enseignants appliquent une interdiction stricte
-* Un tiers pratique une tolérance encadrée
-* Un tiers intègrent l'IA comme outil pédagogique.
 
-::::: {.metric-infographic .column-screen-inset}
 
-## L'IA réussit l'examen traditionnel {.metric-title}
-
-:::: {.metric-grid}
-
-::: {.metric-item}
-
-### Programmation
-
-<div class="metric-gauge metric-gauge-range" role="img" aria-label="Taux de réussite compris entre 68 et 90 pour cent" style="--minimum: 68%; --maximum: 90%;"></div>
-
-[68 % – 90 %]{.metric-value}
-
-[Nikolic et al., 2023]{.metric-source}
-
-[Score de réussite aux examens et travaux écrits.]{.metric-description}
-
-:::
-
-::: {.metric-item}
-
-### Affaires et gestion
-
-<div class="metric-gauge" role="img" aria-label="Précision de 78,1 pour cent" style="--fill: 78.1%;"></div>
-
-[78,1 %]{.metric-value}
-
-[Adilov et al., 2024]{.metric-source}
-
-[Précision aux QCM et exercices de rédaction.]{.metric-description}
-
-:::
-
-::: {.metric-item}
-
-### Physique
-
-<div class="metric-gauge" role="img" aria-label="Score de 60 pour cent" style="--fill: 60%;"></div>
-
-[60 %]{.metric-value}
-
-[Kortemeyer, 2023]{.metric-source}
-
-[Score obtenu par un agent IA dans un cours d'introduction.]{.metric-description}
-
-:::
-
-::::
-
-::: {.metric-conclusion}
-
-L'évaluation standardisée, non supervisée, n'est plus une mesure fiable de
-la compétence exclusive de l'étudiant.
-
-:::
-
-::: {.metric-citation}
 
 Source : Cathia Papi, Amélie Beaudoin, Nilce Da Silva, Serge Gérin-Lajoie et
 Marie-Hélène Hébert, « Repenser l'évaluation des apprentissages à l'ère de

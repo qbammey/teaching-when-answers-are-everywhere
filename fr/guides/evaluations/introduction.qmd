@@ -27,28 +27,4 @@ L’IA générative modifie les tâches qui permettent d’observer de manière 
 Privilégier les évolutions qui améliorent la valeur pédagogique de l’évaluation, y compris lorsqu’aucun outil d’IA n’est utilisé.
 :::
 
-## Emplacement pour des chiffres clés
-
-::: {.key-numbers}
-::: {.key-number}
-## 3,4 / 5
-
-Note moyenne attribuée par les enseignants à la question « Dans quelle mesure l'IA a-t-elle modifié vos pratiques d'évaluation ?» (1: pas du tout, 5: très fortement).
-:::
-
-::: {.key-number}
-## Deux tiers
-
-des enseignants estiment que les étudiants utilisent l'IA dans la quasi-totalité des rendus.
-:::
-
-::: {.key-number}
-## 42%
-citent le manque de temps pour repenser les sujets comme difficulté principale de l'adaptation des évaluations aux outils d'IA générative.
-:::
-:::
-
-
-:::
-
-:::::
+::::

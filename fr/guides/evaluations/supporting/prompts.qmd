@@ -1,18 +1,76 @@
 ---
 title: "Prompts"
-description: "Prompts réutilisables pour concevoir et relire des évaluations."
+description: "Exemples de prompts pour s'appuyer sur l'IA générative dans la conception d'évaluations robustes."
 ---
 
-Chaque prompt devrait préciser son objectif, les informations nécessaires, le résultat attendu et les éléments que l’enseignant doit vérifier.
+::: {.callout-note title="Comment utiliser ces prompts"}
 
-## Modèle de prompt
+Les prompts proposés sur cette page sont des **exemples**. Ils illustrent comment l'IA générative peut aider les enseignants à **concevoir des évaluations robustes** ou à **trouver des pistes pour faire évoluer leurs évaluations existantes**.
 
-::: {.callout-note title="Concevoir une évaluation"}
-**Objectif :** Décrire l’usage prévu.
+Ils ne constituent ni une méthode officielle ni une solution clé en main :
 
-**Informations :** Niveau du cours, acquis d’apprentissage, modalité, durée et contraintes.
+* ils sont **à adapter à chaque contexte** : discipline, niveau, objectifs d'apprentissage, taille du groupe, modalités de la formation ;
+* les propositions de l'IA sont des **pistes de réflexion** qui doivent être relues, vérifiées et ajustées par l'enseignant, qui reste seul responsable de ses choix pédagogiques ;
+* les éléments entre crochets `[...]` sont à remplacer par vos propres informations.
 
-**Prompt :** Ajouter ici le prompt relu et validé.
+:::
 
-**Vérifications :** Lister les éléments à contrôler avant utilisation.
+::: {.callout-warning title="Protection des données"}
+
+Ne saisissez aucune donnée personnelle d'étudiant (noms, copies, notes) dans un outil d'IA. Privilégiez les outils mis à disposition ou recommandés par votre établissement.
+
+:::
+
+## Prompt 1 : analyser et faire évoluer une évaluation existante
+
+**Objectif.** Identifier les points de vulnérabilité d'une évaluation face à l'IA générative et obtenir des pistes concrètes pour la rendre plus robuste, sans perdre de vue les objectifs d'apprentissage.
+
+```text
+Tu es conseiller pédagogique spécialisé en évaluation dans l'enseignement supérieur.
+
+Contexte :
+- Formation : [intitulé du cours, niveau, formation initiale ou continue]
+- Public : [profil des apprenants, nombre d'étudiants]
+- Objectifs d'apprentissage évalués : [liste des compétences ou acquis visés]
+- Évaluation actuelle : [description précise : type de rendu, consignes, durée, conditions de réalisation, critères de notation]
+
+Ta mission :
+1. Analyse dans quelle mesure cette évaluation peut être réalisée en tout ou partie avec une IA générative, sans que l'enseignant puisse vérifier les acquis réels de l'étudiant. Précise pour chaque partie de l'évaluation le niveau de vulnérabilité (faible, moyen, élevé) et explique pourquoi.
+2. Propose trois pistes d'évolution de l'évaluation, de la plus légère à la plus profonde (par exemple : ajout d'un échange oral, évaluation du processus, contextualisation de la tâche, intégration explicite de l'IA).
+3. Pour chaque piste, indique : ce qui change concrètement, les avantages, les limites, et la charge de travail supplémentaire pour l'enseignant.
+4. Vérifie que chaque piste reste alignée avec les objectifs d'apprentissage indiqués.
+
+Présente ta réponse sous forme structurée, avec un tableau de synthèse à la fin. Si des informations te manquent pour répondre correctement, pose-moi d'abord des questions.
+```
+
+## Prompt 2 : concevoir une nouvelle évaluation robuste
+
+**Objectif.** Construire une évaluation complète (consignes, déroulement, grille d'évaluation) qui vérifie les compétences réelles des apprenants dans un contexte où l'IA générative est accessible.
+
+```text
+Tu es ingénieur pédagogique spécialisé dans la conception d'évaluations pour l'enseignement supérieur et la formation continue.
+
+Contexte :
+- Formation : [intitulé du cours, niveau, formation initiale ou continue]
+- Public : [profil des apprenants, nombre d'étudiants]
+- Compétences à évaluer : [liste des compétences ou acquis visés]
+- Contraintes : [durée disponible, présentiel ou distanciel, travail individuel ou en groupe, temps de correction disponible]
+- Place de l'IA : [interdite / autorisée pour certaines étapes / intégrée à l'évaluation]
+
+Ta mission :
+1. Propose une évaluation qui permette de vérifier les compétences réelles des apprenants, en t'appuyant sur un ou plusieurs formats reconnus comme robustes (oral, évaluation du processus, tâche authentique et contextualisée, mise en situation, analyse critique de productions d'IA, etc.). Justifie ton choix.
+2. Rédige les consignes destinées aux apprenants, y compris une règle claire et explicite sur l'usage autorisé ou non de l'IA.
+3. Décris le déroulement étape par étape (préparation, réalisation, rendu, éventuel échange oral).
+4. Élabore une grille d'évaluation critériée (critères, niveaux de performance, pondération), centrée sur le raisonnement, le jugement et l'appropriation plutôt que sur la seule production finale.
+5. Indique les limites de cette évaluation et les points de vigilance (équité, accessibilité, charge de correction).
+
+Si des informations te manquent pour proposer une évaluation adaptée, pose-moi d'abord des questions.
+```
+
+::: {.callout-tip title="Conseils d'utilisation"}
+
+* **Itérez** : n'hésitez pas à demander à l'IA de reformuler, de simplifier ou d'approfondir une proposition.
+* **Confrontez** les propositions aux cadres de référence présentés dans la page [Ressources](ressources.qmd), par exemple l'AI Assessment Scale ou PRAX-IA.
+* **Échangez** avec vos collègues : une proposition générée par l'IA gagne à être discutée collectivement avant d'être mise en œuvre.
+
 :::
